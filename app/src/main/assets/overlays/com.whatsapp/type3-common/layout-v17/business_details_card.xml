@@ -12,11 +12,12 @@
         </LinearLayout>
         <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_location" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_location" style="@*com.whatsapp:style/BusinessProfileFieldView" />
         <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_vertical" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_category" style="@*com.whatsapp:style/BusinessProfileFieldView" />
-        <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_description" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_about" style="@*com.whatsapp:style/BusinessProfileFieldView" />
+        <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_description" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_description" style="@*com.whatsapp:style/BusinessProfileFieldView" />
         <com.whatsapp.BusinessHoursView android:id="@*com.whatsapp:id/business_hours" android:visibility="gone" style="@*com.whatsapp:style/BusinessProfileFieldView" />
         <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_email" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_email" app:bpfvSingleLine="true" app:bpfvEllipsize="end" style="@*com.whatsapp:style/BusinessProfileFieldView" />
         <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_link" android:tag="website" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_link" app:bpfvSingleLine="true" app:bpfvEllipsize="end" style="@*com.whatsapp:style/BusinessProfileFieldView" />
         <com.whatsapp.BusinessProfileFieldView android:id="@*com.whatsapp:id/business_link_2" android:tag="website" android:visibility="gone" app:bpfvImage="@*com.whatsapp:drawable/ic_business_link" app:bpfvSingleLine="true" app:bpfvEllipsize="end" style="@*com.whatsapp:style/BusinessProfileFieldView" />
+        <TextView android:gravity="center" android:id="@*com.whatsapp:id/blank_business_details_text" android:paddingLeft="@*com.whatsapp:dimen/business_blank_info_prompt_padding" android:paddingRight="@*com.whatsapp:dimen/business_blank_info_prompt_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/business_blank_info_screen_prompt_height" android:singleLine="false" style="@*com.whatsapp:style/ListItemTitle" />
     </LinearLayout>
     <View android:background="@*com.whatsapp:drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_card_spacing" />
 </LinearLayout>

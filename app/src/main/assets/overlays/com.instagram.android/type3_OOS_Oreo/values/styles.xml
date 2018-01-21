@@ -402,7 +402,6 @@
         <item name="*com.instagram.android:rowDetailStyle">@*com.instagram.android:style/BodyDetail</item>
         <item name="*com.instagram.android:rowBadge">@*com.instagram.android:style/rowBadge</item>
         <item name="*com.instagram.android:rowDetailBoldText">@*com.instagram.android:style/BodyDetail</item>
-        <item name="*com.instagram.android:rowAvatarHeight">@*com.instagram.android:dimen/row_height_large_redesign</item>
         <item name="*com.instagram.android:rowAvatarWidth">@*com.instagram.android:dimen/avatar_size_redesign</item>
         <item name="*com.instagram.android:rowUserName">@*com.instagram.android:style/BodyEmphasized</item>
         <item name="*com.instagram.android:rowUserInfo">@*com.instagram.android:style/BodyDetail</item>

@@ -13,8 +13,6 @@
         <item name="android:textColor">#ffdddddd</item>
         <item name="android:background">@*com.google.android.apps.photos:drawable/abc_edit_text_material</item>
     </style>
-    <style name="Base.CardView" parent="@*android:style/Widget" />
-    <style name="CardView" parent="@*com.google.android.apps.photos:style/Base.CardView" />
  
     <style name="DrawerMenu.AccountItem.TextStyle" parent="@*com.google.android.apps.photos:style/DrawerMenu.AccountItem">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
@@ -31,15 +29,8 @@
         <item name="*com.google.android.apps.photos:cardUseCompatPadding">true</item>
     </style>
 
-    <style name="LabelPreference.Label" parent="@*com.google.android.apps.photos:style/LabelPreference">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
-    </style>
-    <style name="LabelPreference.Summary" parent="@*com.google.android.apps.photos:style/LabelPreference">
-        <item name="android:textAppearance">?android:textAppearanceSmall</item>
-    </style>
-    <style name="LabelPreference.Title" parent="@*com.google.android.apps.photos:style/LabelPreference">
-        <item name="android:textAppearance">?android:textAppearanceLarge</item>
-    </style>
+
+
     <style name="Platform.AppCompat" parent="@*android:style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -56,13 +47,6 @@
         <item name="android:colorAccent">@*android:color/accent_material_dark</item>
         <item name="android:navigationBarColor">@*android:color/black</item>
     </style>
-
-    <style name="StoriesEditTextTheme" parent="@*android:style/Theme.Holo.Dialog" />
-
-
-
-    <style name="UrawTheme" parent="@*android:style/Theme.Holo" />
-
 
     <style name="MapEnrichmentEditingTheme" parent="@*com.google.android.apps.photos:style/Theme.Photos.NoTitle">
         <item name="*com.google.android.apps.photos:colorAccent">@*android:color/accent_material_dark</item>
@@ -100,51 +84,8 @@
         <item name="*com.google.android.apps.photos:colorPrimary">@*com.google.android.apps.photos:color/quantum_googblue500</item>
         <item name="*com.google.android.apps.photos:colorPrimaryDark">@*com.google.android.apps.photos:color/quantum_googblue700</item>
     </style>
-    <style name="Theme.Arkham.NormalWhite.ActionBar.WithTabs" parent="@*com.google.android.apps.photos:style/Theme.Arkham.NormalWhite.ActionBar">
-        <item name="android:background">@*android:color/primary_material_dark</item>
-        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
-    </style>
-    <style name="Theme.Arkham.NormalWhite.ActionBarWithShadow" parent="@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar">
-        <item name="android:background">@*android:color/primary_material_dark</item>
-        <item name="android:titleTextStyle">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.BlackText</item>
-        <item name="android:subtitleTextStyle">@*com.google.android.apps.photos:style/Theme.Arkham.NormalWhite.ActionBar.SubtitleText</item>
-        <item name="android:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_arrow_back_grey600_24</item>
-        <item name="*com.google.android.apps.photos:titleTextStyle">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.BlackText</item>
-        <item name="*com.google.android.apps.photos:subtitleTextStyle">@*com.google.android.apps.photos:style/Theme.Arkham.NormalWhite.ActionBar.SubtitleText</item>
-        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
-        <item name="*com.google.android.apps.photos:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_arrow_back_grey600_24</item>
-    </style>
-    <style name="Theme.Arkham.NormalWhiteActionBar" parent="@*com.google.android.apps.photos:style/Theme.Arkham">
-        <item name="android:windowBackground">@*android:color/primary_material_dark</item>
-        <item name="android:actionBarStyle">@*com.google.android.apps.photos:style/Theme.Arkham.NormalWhite.ActionBar</item>
-        <item name="android:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.BlackOverflow</item>
-        <item name="*com.google.android.apps.photos:actionOverflowButtonStyle">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.BlackOverflow</item>
-        <item name="*com.google.android.apps.photos:actionBarStyle">@*com.google.android.apps.photos:style/Theme.Arkham.NormalWhite.ActionBar</item>
-        <item name="*com.google.android.apps.photos:actionBarTheme">@*com.google.android.apps.photos:style/Theme.Arkham.WhiteActionBarTheme</item>
-        <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="*com.google.android.apps.photos:colorPrimaryDark">@*com.google.android.apps.photos:color/quantum_grey</item>
-    </style>
-    <style name="Theme.Arkham.White.ActionBar" parent="@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar">
-        <item name="android:background">@*android:color/primary_material_dark</item>
-        <item name="android:titleTextStyle">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.TitleTextStyle</item>
-        <item name="android:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_close_grey600_24</item>
-        <item name="*com.google.android.apps.photos:titleTextStyle">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.TitleTextStyle</item>
-        <item name="*com.google.android.apps.photos:background">@*android:color/primary_material_dark</item>
-        <item name="*com.google.android.apps.photos:contentInsetStart">0.0dip</item>
-        <item name="*com.google.android.apps.photos:homeAsUpIndicator">@*com.google.android.apps.photos:drawable/quantum_ic_close_grey600_24</item>
-    </style>
-    <style name="Theme.Arkham.WithWhiteActionBar" parent="@*com.google.android.apps.photos:style/Theme.Arkham">
-        <item name="android:windowBackground">@*android:color/primary_material_dark</item>
-        <item name="android:windowContentOverlay">@*com.google.android.apps.photos:drawable/actionbar_shadow</item>
-        <item name="android:actionBarStyle">@*com.google.android.apps.photos:style/Theme.Arkham.White.ActionBar</item>
-        <item name="android:actionMenuTextAppearance">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.MenuButtonTextStyle</item>
-        <item name="android:actionMenuTextColor">@*com.google.android.apps.photos:color/white_actionbar_done_button_color</item>
-        <item name="*com.google.android.apps.photos:actionBarStyle">@*com.google.android.apps.photos:style/Theme.Arkham.White.ActionBar</item>
-        <item name="*com.google.android.apps.photos:actionMenuTextAppearance">@*com.google.android.apps.photos:style/Theme.Arkham.ActionBar.MenuButtonTextStyle</item>
-        <item name="*com.google.android.apps.photos:actionMenuTextColor">@*com.google.android.apps.photos:color/white_actionbar_done_button_color</item>
-        <item name="*com.google.android.apps.photos:colorPrimary">@*android:color/primary_material_dark</item>
-        <item name="*com.google.android.apps.photos:colorPrimaryDark">@*com.google.android.apps.photos:color/quantum_grey</item>
-    </style>
+
+
     <style name="Theme.Ingest" parent="@*com.google.android.apps.photos:style/Theme.AppCompat">
         <item name="android:icon">@*android:color/transparent</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
@@ -274,14 +215,7 @@
     <style name="photos_photobook_wallet_custom_theme">
         <item name="*com.google.android.apps.photos:colorPrimary">#ff1976d2</item>
     </style>
-    <style name="Widget.MaterialComponents.TabLayout" parent="@*com.google.android.apps.photos:style/Widget.Design.TabLayout">
-        <item name="android:background">@*android:color/black</item>
-        <item name="*com.google.android.apps.photos:tabIndicatorColor">@*com.google.android.apps.photos:color/mm_accent</item>
-        <item name="*com.google.android.apps.photos:tabTextAppearance">@*com.google.android.apps.photos:style/TextAppearance.MaterialComponents.Tab</item>
-        <item name="*com.google.android.apps.photos:tabIconTint">@*com.google.android.apps.photos:color/mtrl_tabs_icon_color_selector</item>
-        <item name="*com.google.android.apps.photos:tabRippleColor">@*com.google.android.apps.photos:color/mm_accent</item>
-        <item name="*com.google.android.apps.photos:tabRippleAlpha">@*com.google.android.apps.photos:color/mtrl_tabs_ripple_alpha</item>
-    </style>
+
     <style name="mm_Theme" parent="@*com.google.android.apps.photos:style/Theme.Photos">
         <item name="android:icon">@*android:color/transparent</item>
         <item name="android:windowBackground">@*android:color/background_dark</item>
@@ -328,7 +262,7 @@
     </style>
 
 
-    <style name="Theme.Photos.PhotoBook.StoreFront.AlertDialog" parent="@*com.google.android.apps.photos:style/Theme.AppCompat.Dialog.Alert">
+    <style name="Theme.Photos.PhotoBook.StoreFront.AlertDialog" parent="@*com.google.android.apps.photos:style/Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:textColorPrimary">@*android:color/white</item>
         <item name="android:textColor">@*android:color/white</item>
     </style>

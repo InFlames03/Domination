@@ -144,4 +144,7 @@
     <color name="capture_textview_text_color">#feffffff</color>
     <color name="reel_background_content_white_gradient_end">#80000000</color>
     <color name="reel_background_content_white_gradient_start">@*android:color/background_dark</color>
+
+
+    <color name="bioTextEntityFontColor">#ffffffff</color>
 </resources>

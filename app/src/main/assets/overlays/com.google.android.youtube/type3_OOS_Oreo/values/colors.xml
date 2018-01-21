@@ -786,4 +786,23 @@
     <color name="yt_icon_1_light">#ffffffff</color>
     <color name="yt_icon_2_dark">#ffdddddd</color>
     <color name="yt_icon_2_light">#ffdddddd</color>
+
+
+    <color name="reel_edit_dialog_accent_color">#ff1976d2</color>
+    <color name="skip_ad_button_inverted_background_color">#cc000000</color>
+    <color name="skip_ad_button_inverted_foreground_color">#ffffffff</color>
+    <color name="sticker_catalog_bottom_bar_background">@*android:color/background_floating_material_dark</color>
+    <color name="sticky_refinement_card_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="sticky_refinement_card_selected_background_color">@*android:color/dim_foreground_light</color>
+    <color name="text_color_black">#ffffffff</color>
+    <color name="text_color_blue">#ff1976d2</color>
+    <color name="text_color_chip_stroke_color">#1effffff</color>
+    <color name="text_color_green">#ff388e3c</color>
+    <color name="text_color_orange">#ffe64a19</color>
+    <color name="text_color_picker_background">@*android:color/background_floating_material_dark</color>
+    <color name="text_color_pink">#ffe91e63</color>
+    <color name="text_color_purple">#ff512da8</color>
+    <color name="text_color_red">#ffd32f2f</color>
+    <color name="text_color_white">#ffffffff</color>
+    <color name="text_color_yellow">#fffbc02d</color>
 </resources>

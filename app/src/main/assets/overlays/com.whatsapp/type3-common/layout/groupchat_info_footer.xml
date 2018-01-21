@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@*com.whatsapp:layout/divider_row" />
     <LinearLayout android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:gravity="center_vertical" android:id="@*com.whatsapp:id/exit_group_btn" android:background="@*com.whatsapp:drawable/selector_orange_gradient" android:paddingLeft="@*com.whatsapp:dimen/info_screen_padding" android:layout_width="fill_parent" android:layout_height="@*com.whatsapp:dimen/info_screen_row">
             <ImageView android:id="@*com.whatsapp:id/exit_group_icon" android:layout_width="@*com.whatsapp:dimen/small_list_avatar_size" android:layout_height="@*com.whatsapp:dimen/small_list_avatar_size" android:layout_marginRight="@*com.whatsapp:dimen/small_list_avatar_padding" android:src="@*com.whatsapp:drawable/ic_exit_group" android:scaleType="center" android:tint="@*com.whatsapp:color/red_button_text" />

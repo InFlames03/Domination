@@ -14,7 +14,7 @@
                     <View android:background="@*com.whatsapp:drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
                     <RadioButton android:gravity="start|center" android:id="@*com.whatsapp:id/change_number_custom" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@*com.whatsapp:string/change_number_notify_recipients_custom" style="@*com.whatsapp:style/Text.Description" />
                 </LinearLayout>
-                <TextView android:textColor="#ffdddddd" android:gravity="start" android:id="@*com.whatsapp:id/change_number_notified_amount" android:paddingLeft="16.0dip" android:paddingTop="26.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_weight="1.0" style="@*com.whatsapp:style/Text.Description" />
+                <com.whatsapp.TextEmojiLabel android:textColor="#ffdddddd" android:gravity="start" android:id="@*com.whatsapp:id/change_number_notified_amount" android:paddingLeft="16.0dip" android:paddingTop="26.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_weight="1.0" style="@*com.whatsapp:style/Text.Description" />
             </LinearLayout>
             <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
         </LinearLayout>

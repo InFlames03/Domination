@@ -327,8 +327,10 @@
     <attr name="footnoteLink" format="reference" />
     <attr name="forceFullWidth" format="boolean" />
     <attr name="fraction_screen_width" format="float" />
+    <attr name="freezesAnimation" format="boolean" />
     <attr name="fullBright" format="reference|color" />
     <attr name="fullDark" format="reference|color" />
+    <attr name="gifSource" format="reference|string" />
     <attr name="glyphColorPrimary" format="color" />
     <attr name="glyphColorSecondary" format="color" />
     <attr name="glyphColorSecondaryActive" format="color" />
@@ -399,6 +401,7 @@
     <attr name="inversePrimaryButtonStyle" format="reference" />
     <attr name="inverseSecondaryButtonStyle" format="reference" />
     <attr name="inverseUpdatableButtonStyle" format="reference" />
+    <attr name="isOpaque" format="boolean" />
     <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="label" format="reference" />
     <attr name="labelLink" format="reference" />
@@ -427,6 +430,7 @@
     <attr name="loadingTitle" format="reference|string" />
     <attr name="lockMediaOrientation" format="boolean" />
     <attr name="lockMediaOrientationDeprecated" format="boolean" />
+    <attr name="loopCount" format="integer" />
     <attr name="maxDurationMS" format="integer" />
     <attr name="maxHeight" format="dimension" />
     <attr name="maxWidth" format="dimension" />
@@ -557,7 +561,6 @@
         <enum name="text" value="0" />
     </attr>
     <attr name="reverseLayout" format="boolean" />
-    <attr name="rowAvatarHeight" format="dimension" />
     <attr name="rowAvatarWidth" format="dimension" />
     <attr name="rowBadge" format="reference" />
     <attr name="rowDetailBoldText" format="reference" />
@@ -593,6 +596,7 @@
     <attr name="searchUserName" format="reference" />
     <attr name="searchVerticalSeparatorPadding" format="dimension" />
     <attr name="secondaryButtonStyle" format="reference" />
+    <attr name="secondaryText" format="string" />
     <attr name="section" format="reference" />
     <attr name="seekBarActiveColor" format="color" />
     <attr name="seekBarInactiveColor" format="color" />

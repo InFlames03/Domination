@@ -7,6 +7,7 @@
         <enum name="right" value="3" />
         <enum name="top" value="2" />
     </attr>
+    <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="description" format="reference|string" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="height" format="dimension" />
@@ -76,6 +77,7 @@
     <attr name="singleChoiceItemLayout" format="reference" />
     <attr name="listItemLayout" format="reference" />
     <attr name="showTitle" format="boolean" />
+    <attr name="buttonIconDimen" format="dimension" />
     <attr name="expanded" format="boolean" />
     <attr name="state_collapsed" format="boolean" />
     <attr name="state_collapsible" format="boolean" />
@@ -236,6 +238,7 @@
     <attr name="tooltipFrameBackground" format="reference" />
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
+    <attr name="viewInflaterClass" format="string" />
     <attr name="minTextSize" format="dimension" />
     <attr name="avatarPosition">
         <enum name="end" value="0" />
@@ -258,9 +261,16 @@
         <enum name="width" value="0" />
     </attr>
     <attr name="titleColor" format="color" />
+    <attr name="fabAttached" format="boolean" />
     <attr name="fabCradleDiameter" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="labelVisibilityMode">
+        <enum name="labeled" value="1" />
+        <enum name="legacy" value="-1" />
+        <enum name="selected" value="0" />
+        <enum name="unlabeled" value="2" />
+    </attr>
     <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="shiftingMode">
         <enum name="auto" value="-1" />
@@ -309,6 +319,12 @@
     <attr name="closeIconStartPadding" format="dimension" />
     <attr name="closeIconEndPadding" format="dimension" />
     <attr name="chipEndPadding" format="dimension" />
+    <attr name="chipSpacing" format="dimension" />
+    <attr name="chipSpacingHorizontal" format="dimension" />
+    <attr name="chipSpacingVertical" format="dimension" />
+    <attr name="singleLine" format="boolean" />
+    <attr name="singleSelection" format="boolean" />
+    <attr name="checkedChip" format="reference" />
     <attr name="placeholderColor" format="color" />
     <attr name="topLeftCornerRadius" format="dimension" />
     <attr name="topRightCornerRadius" format="dimension" />
@@ -513,7 +529,6 @@
     <attr name="layout_maxHeight" format="dimension" />
     <attr name="layout_wrapBefore" format="boolean" />
     <attr name="rippleColor" format="color" />
-    <attr name="rippleAlpha" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
@@ -648,10 +663,13 @@
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialSwitchStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
+    <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
     <attr name="bottomAppBarStyle" format="reference" />
+    <attr name="cardViewStyle" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -843,6 +861,13 @@
     <attr name="tabIndicatorHeight" format="dimension" />
     <attr name="tabContentStart" format="dimension" />
     <attr name="tabBackground" format="reference" />
+    <attr name="tabIndicator" format="reference" />
+    <attr name="tabIndicatorGravity">
+        <enum name="bottom" value="0" />
+        <enum name="top" value="2" />
+        <enum name="center" value="1" />
+        <enum name="stretch" value="3" />
+    </attr>
     <attr name="tabMode">
         <enum name="fixed" value="1" />
         <enum name="scrollable" value="0" />
@@ -872,7 +897,6 @@
         <enum name="src_over" value="3" />
     </attr>
     <attr name="tabRippleColor" format="color" />
-    <attr name="tabRippleAlpha" format="color" />
     <attr name="hintEnabled" format="boolean" />
     <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="hintTextAppearance" format="reference" />

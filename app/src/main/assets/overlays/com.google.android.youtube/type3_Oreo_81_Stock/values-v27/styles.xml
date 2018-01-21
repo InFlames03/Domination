@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V27.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.V23.Theme.YouTube.Light">
+        <item name="android:navigationBarColor">@*com.google.android.youtube:color/navigationbar_background_light</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@*com.google.android.youtube:color/navigationbar_divider_light</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Light.Dialog" parent="@*com.google.android.youtube:style/Base.V23.Theme.YouTube.Light.Dialog">
+        <item name="android:navigationBarColor">@*com.google.android.youtube:color/navigationbar_background_light</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@*com.google.android.youtube:color/navigationbar_divider_light</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Share.DialogFragment" parent="@*com.google.android.youtube:style/Base.Theme.YouTube.Share.DialogFragment">
+        <item name="android:navigationBarColor">@*android:color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">#00000000</item>
+    </style>
+</resources>

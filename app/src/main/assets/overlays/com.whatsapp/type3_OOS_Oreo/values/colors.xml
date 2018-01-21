@@ -213,4 +213,13 @@
     <color name="npci_text_secondary_light">#b3ffffff</color>
     <color name="npci_text_tertiary_dark">#4dffffff</color>
     <color name="unread_indicator">#ff388e3c</color>
+
+
+    <color name="announcement_footer_background">@*android:color/background_floating_material_dark</color>
+    <color name="blank_reply_background">@*android:color/background_floating_material_dark</color>
+    <color name="blank_reply_text">#ffdddddd</color>
+    <color name="education_banner">#ff00796b</color>
+    <color name="list_item_disabled">#ffaaaaaa</color>
+    <color name="payments_status_blue">#ff1976d2</color>
+    <color name="tombstone_text_color">#aaffffff</color>
 </resources>
