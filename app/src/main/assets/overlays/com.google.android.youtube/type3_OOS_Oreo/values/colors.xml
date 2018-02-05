@@ -805,4 +805,45 @@
     <color name="text_color_red">#ffd32f2f</color>
     <color name="text_color_white">#ffffffff</color>
     <color name="text_color_yellow">#fffbc02d</color>
+
+
+    <color name="ad_background_1_dark">@*android:color/background_dark</color>
+    <color name="ad_background_1_light">@*android:color/background_dark</color>
+    <color name="ad_background_2_dark">@*android:color/background_floating_material_dark</color>
+    <color name="ad_background_2_light">@*android:color/background_floating_material_dark</color>
+    <color name="ad_blue_dark">#ff1976d2</color>
+    <color name="ad_blue_light">#ff1976d2</color>
+    <color name="ad_muted_background_dark">@*android:color/button_material_dark</color>
+    <color name="ad_muted_background_light">@*android:color/button_material_dark</color>
+    <color name="ad_separator_dark">#00000000</color>
+    <color name="ad_separator_light">#00000000</color>
+    <color name="ad_text_1_dark">#ffffffff</color>
+    <color name="ad_text_1_light">#ffffffff</color>
+    <color name="ad_text_2_dark">#ffdddddd</color>
+    <color name="ad_text_2_light">#ffdddddd</color>
+    <color name="cmt_avatar_heart_overlay_default_dark">#ffdddddd</color>
+    <color name="cmt_avatar_heart_overlay_default_light">#ffdddddd</color>
+    <color name="cmt_bg_style_default_dark">@*android:color/background_dark</color>
+    <color name="cmt_bg_style_default_light">@*android:color/background_dark</color>
+    <color name="cmt_bg_style_grey_dark">@*android:color/background_floating_material_dark</color>
+    <color name="cmt_bg_style_grey_light">@*android:color/background_floating_material_dark</color>
+    <color name="cmt_creator_heart_tooltip_bg_dark">#cc000000</color>
+    <color name="cmt_creator_heart_tooltip_bg_light">#cc000000</color>
+    <color name="cmt_divider_dark">#00000000</color>
+    <color name="cmt_divider_light">#00000000</color>
+    <color name="cmt_heart_pressed_focused_selected_dark">#ffffffff</color>
+    <color name="cmt_heart_pressed_focused_selected_light">#ffffffff</color>
+    <color name="cmt_sponsor_badge_background_dark">#ff388e3c</color>
+    <color name="cmt_sponsor_badge_background_light">#ff388e3c</color>
+    <color name="cmt_sponsors_only_badge_dark">#ff1976d2</color>
+    <color name="cmt_sponsors_only_badge_light">#ff1976d2</color>
+    <color name="reel_dialog_accent_color">#ff1976d2</color>
+    <color name="reel_dialog_background_color">@*android:color/background_floating_material_dark</color>
+    <color name="reel_dialog_text_color">#ffdddddd</color>
+    <color name="reel_dialog_title_color">@*android:color/white</color>
+    <color name="reel_subs_background">@*android:color/background_dark</color>
+    <color name="reel_subs_text_color_subscribe">#ffd32f2f</color>
+    <color name="reel_subs_text_color_subscribed">#ffdddddd</color>
+    <color name="yt_static_dark_background_1_dark">@*android:color/background_dark</color>
+    <color name="yt_static_dark_background_1_light">@*android:color/background_dark</color>
 </resources>

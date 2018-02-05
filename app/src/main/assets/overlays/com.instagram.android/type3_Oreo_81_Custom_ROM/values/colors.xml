@@ -147,4 +147,11 @@
 
 
     <color name="bioTextEntityFontColor">#ffffffff</color>
+
+
+    <color name="zero_rating_video_settings_drawer_cancel_button_color">#ffdddddd</color>
+    <color name="zero_rating_video_settings_drawer_confirm_background_color">#ff1976d2</color>
+    <color name="zero_rating_video_settings_drawer_confirm_button_color">#ff0097a7</color>
+    <color name="zero_rating_video_settings_drawer_subtitle_color">#ffdddddd</color>
+    <color name="zero_rating_video_settings_drawer_unchecked_border_color">#ffdddddd</color>
 </resources>

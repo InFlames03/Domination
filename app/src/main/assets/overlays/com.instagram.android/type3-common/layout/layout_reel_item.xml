@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/lib/com.instagram.android">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <ViewStub android:id="@*com.instagram.android:id/reel_viewer_zero_rating_data_banner_stub" android:layout="@*com.instagram.android:layout/zero_rating_data_banner" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/zero_rating_data_banner_height" />
-        <com.instagram.reels.ui.ReelViewGroup android:id="@*com.instagram.android:id/reel_mention_overlay" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.reels.viewer.ReelViewGroup android:id="@*com.instagram.android:id/reel_mention_overlay" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ViewStub android:id="@*com.instagram.android:id/sponsored_reel_landscape_overlay_stub" android:layout="@*com.instagram.android:layout/landscape_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
             <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@*com.instagram.android:id/reel_viewer_media_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:forceFullWidth="true">
                 <com.instagram.ui.widget.textureview.ScalingTextureView android:id="@*com.instagram.android:id/reel_viewer_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
@@ -32,12 +32,11 @@
                 <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:gravity="end|center|top" android:id="@*com.instagram.android:id/top_menu_button" android:padding="@*com.instagram.android:dimen/row_text_padding" android:visibility="gone" android:layout_width="@*com.instagram.android:dimen/button_width" android:layout_height="@*com.instagram.android:dimen/button_width" android:src="@*com.instagram.android:drawable/media_option_button" android:scaleType="center" app:normal="@*android:color/white" />
             </LinearLayout>
             <com.instagram.ui.widget.segmentedprogressbar.SegmentedProgressBar android:layout_gravity="top" android:id="@*com.instagram.android:id/reel_viewer_progress_bar" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/segmented_progress_bar_default_height" android:layout_marginTop="@*com.instagram.android:dimen/segmented_progress_bar_default_margin_top" />
-            <com.instagram.ui.widget.gradientspinner.GradientSpinner android:layout_gravity="center" android:id="@*com.instagram.android:id/gradient_video_loading_spinner" android:visibility="gone" android:layout_width="108.0dip" android:layout_height="108.0dip" app:inactiveColour="@*android:color/white" />
             <include layout="@*com.instagram.android:layout/layout_reel_item_toolbar" />
             <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@*com.instagram.android:id/reel_retry_icon" android:visibility="gone" android:layout_width="@*com.instagram.android:dimen/reel_retry_icon_size" android:layout_height="@*com.instagram.android:dimen/reel_retry_icon_size" android:src="@*com.instagram.android:drawable/refresh_big" app:normal="@*android:color/white" />
             <ViewStub android:id="@*com.instagram.android:id/reel_identifier_overlay_stub" android:layout="@*com.instagram.android:layout/reel_identifier_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
             <ViewStub android:layout_gravity="center" android:id="@*com.instagram.android:id/video_play_button_stub" android:layout="@*com.instagram.android:layout/view_media_play_button_simple" android:layout_width="108.0dip" android:layout_height="108.0dip" />
-        </com.instagram.reels.ui.ReelViewGroup>
+        </com.instagram.reels.viewer.ReelViewGroup>
     </LinearLayout>
     <ViewStub android:id="@*com.instagram.android:id/reel_viewer_suggestion_unit_overlay_stub" android:layout="@*com.instagram.android:layout/reel_viewer_suggestion_unit_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </FrameLayout>

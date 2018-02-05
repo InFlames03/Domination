@@ -3,7 +3,7 @@
     <color name="abc_search_url_text_normal">#ffffffff</color>
     <color name="abc_search_url_text_pressed">#ffffffff</color>
     <color name="abc_search_url_text_selected">#ffffffff</color>
-    <color name="accent">#ffe64a19</color>
+    <color name="accent">#ff1976d2</color>
     <color name="accent_material_dark">@*android:color/accent_material_dark</color>
     <color name="accent_material_light">@*android:color/accent_material_dark</color>
     <color name="account_text_color">#ffffffff</color>
@@ -119,7 +119,7 @@
     <color name="switch_thumb_disabled_material_light">#ff616161</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
-    <color name="tab_indicator_color">#fffbc02d</color>
+    <color name="tab_indicator_color">#ff1976d2</color>
     <color name="transparent_black">#00ffffff</color>
     <color name="transparent_white">#00ffffff</color>
     <color name="variant_asset_text_bolder">#ffffffff</color>
@@ -135,4 +135,18 @@
     <color name="release_track_icon_beta">#fffbc02d</color>
     <color name="release_track_icon_prod">#ff388e3c</color>
     <color name="warning_card_icon">#ffe64a19</color>
+
+
+    <color name="info_background">@*android:color/background_floating_material_dark</color>
+    <color name="message_alert">#ffd32f2f</color>
+    <color name="message_confirmation">#ff388e3c</color>
+    <color name="message_info">#ff1976d2</color>
+    <color name="message_warning">#ffe64a19</color>
+    <color name="messages_info_background">@*android:color/background_floating_material_dark</color>
+    <color name="primary_black_67">#ffdddddd</color>
+    <color name="quantum_grey400">#ffdddddd</color>
+    <color name="release_track_icon_halted">#ffd32f2f</color>
+    <color name="release_track_icon_historic">#ffdddddd</color>
+    <color name="tooltip_background_dark">#e6202020</color>
+    <color name="tooltip_background_light">#e6202020</color>
 </resources>

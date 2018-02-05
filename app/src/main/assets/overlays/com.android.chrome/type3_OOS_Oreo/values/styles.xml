@@ -78,26 +78,10 @@
         <item name="android:layout_weight">1.0</item>
         <item name="android:requiresFadingEdge">horizontal</item>
     </style>
-    <style name="PhysicalWebNearbyUrlsListStyle" parent="@*com.android.chrome:style/Theme.AppCompat">
-        <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">fill_parent</item>
-    </style>
-    <style name="PhysicalWebOptInStyle" parent="@*com.android.chrome:style/Theme.AppCompat">
-        <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="*com.android.chrome:windowActionBar">false</item>
-        <item name="*com.android.chrome:windowNoTitle">true</item>
-    </style>
 
 
-    <style name="FullscreenWhiteDialog" parent="@*com.android.chrome:style/Theme.AppCompat">
-        <item name="android:windowBackground">@*android:color/background_dark</item>
-        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
-        <item name="android:statusBarColor">@*android:color/primary_material_dark</item>
-        <item name="*com.android.chrome:colorPrimary">@*com.android.chrome:color/light_active_color</item>
-        <item name="*com.android.chrome:colorAccent">@*com.android.chrome:color/light_active_color</item>
-    </style>
+
+
     <style name="ContextualSearchCaptionTextView">
         <item name="android:textAppearance">@*com.android.chrome:style/BlackBody</item>
         <item name="android:textColor">#ffffffff</item>
@@ -138,5 +122,15 @@
 
     <style name="GvrDialogTheme" parent="@*android:style/Theme.Holo.Dialog">
         <item name="android:windowBackground">@*android:color/transparent</item>
+    </style>
+
+
+    <style name="FullscreenWhiteBase" parent="@*com.android.chrome:style/Theme.AppCompat">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:textColorLink">@*com.android.chrome:color/light_active_color</item>
+        <item name="*com.android.chrome:windowNoTitle">true</item>
+        <item name="*com.android.chrome:colorPrimary">@*com.android.chrome:color/light_active_color</item>
+        <item name="*com.android.chrome:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.android.chrome:colorAccent">@*com.android.chrome:color/light_active_color</item>
     </style>
 </resources>

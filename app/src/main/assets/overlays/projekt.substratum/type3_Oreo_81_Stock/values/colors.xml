@@ -20,7 +20,7 @@
     <color name="about_libraries_title_openSource_dark">#ffffffff</color>
     <color name="about_libraries_window_background">@*android:color/background_dark</color>
     <color name="about_libraries_window_background_dark">@*android:color/background_dark</color>
-    <color name="accent">#ffd32f2f</color>
+    <color name="accent">@*android:color/accent_material_dark</color>
     <color name="accent_material_dark">@*android:color/accent_material_dark</color>
     <color name="accent_material_light">@*android:color/accent_material_dark</color>
     <color name="background_floating_material_dark">@*android:color/background_floating_material_dark</color>
@@ -35,7 +35,7 @@
     <color name="button_material_light">@*android:color/button_material_dark</color>
     <color name="cardview_dark_background">@*android:color/background_floating_material_dark</color>
     <color name="cardview_light_background">@*android:color/background_floating_material_dark</color>
-    <color name="colorAccent">#ffd32f2f</color>
+    <color name="colorAccent">@*android:color/accent_material_dark</color>
     <color name="colorPrimary">@*android:color/primary_material_dark</color>
     <color name="colorPrimaryDark">@*android:color/primary_dark_material_dark</color>
     <color name="colorPrimaryLight">@*android:color/primary_dark_material_dark</color>
@@ -60,7 +60,7 @@
     <color name="main_screen_card_theme_title">#ffffffff</color>
     <color name="material_deep_teal_200">#ff787878</color>
     <color name="material_deep_teal_500">#ff787878</color>
-    <color name="material_drawer_accent">#ffd32f2f</color>
+    <color name="material_drawer_accent">@*android:color/accent_material_dark</color>
     <color name="material_drawer_background">@*android:color/background_floating_material_dark</color>
     <color name="material_drawer_dark_selected">#ff555555</color>
     <color name="material_drawer_dark_selected_text">#ff1976d2</color>
@@ -75,7 +75,7 @@
     <color name="material_grey_800">@*android:color/background_dark</color>
     <color name="material_grey_850">@*android:color/background_dark</color>
     <color name="material_grey_900">@*android:color/background_floating_material_dark</color>
-    <color name="materialize_accent">#ffd32f2f</color>
+    <color name="materialize_accent">@*android:color/accent_material_dark</color>
     <color name="materialize_primary">#ff1976d2</color>
     <color name="materialize_primary_dark">#ff1976d2</color>
     <color name="materialize_primary_light">#ff1976d2</color>
@@ -114,11 +114,11 @@
     <color name="overlay_update_not_needed">#ff388e3c</color>
     <color name="primary">#ff1976d2</color>
     <color name="primary_dark">#ff0d47a1</color>
-    <color name="primary_dark_material_dark">#ff000000</color>
-    <color name="primary_dark_material_light">#ff000000</color>
+    <color name="primary_dark_material_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="primary_dark_material_light">@*android:color/primary_dark_material_dark</color>
     <color name="primary_light">#ff1976d2</color>
-    <color name="primary_material_dark">#ff111111</color>
-    <color name="primary_material_light">#ff111111</color>
+    <color name="primary_material_dark">@*android:color/primary_material_dark</color>
+    <color name="primary_material_light">@*android:color/primary_material_dark</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#ffffffff</color>
     <color name="primary_text_disabled_material_dark">#4dffffff</color>
@@ -148,14 +148,13 @@
     <color name="theme_information_card_subtext">#ffdddddd</color>
     <color name="theme_information_card_text">#ffffffff</color>
     <color name="theme_information_card_title">#ffd32f2f</color>
-    <color name="navigationBarColor">#ff000000</color>
+    <color name="navigationBarColor">@*android:color/black</color>
 
 
     <color name="backup_button_text_color">#ffffffff</color>
     <color name="bb_darkBackgroundColor">@*android:color/background_floating_material_dark</color>
     <color name="bb_inActiveBottomBarItemColor">#ffaaaaaa</color>
     <color name="bottombar_bar_background">@*android:color/background_floating_material_dark</color>
-    <color name="bottombar_icon_text_selected">@*android:color/white</color>
     <color name="restore_button_text_color">@*android:color/white</color>
     <color name="showcase_activity_text">@*android:color/white</color>
     <color name="substratum_blue">#ff1976d2</color>
@@ -163,4 +162,11 @@
     <color name="substratum_orange">#ffe64a19</color>
     <color name="substratum_yellow">#fffbc02d</color>
     <color name="troubleshooting_card_line_color">#00000000</color>
+
+
+    <color name="colorRipple">#4dffffff</color>
+    <color name="fab_icon_success">#ff388e3c</color>
+    <color name="lunchbar_background">@*android:color/background_floating_material_dark</color>
+    <color name="lunchbar_text">@*android:color/white</color>
+    <color name="fab_background_color">@*android:color/button_material_dark</color>
 </resources>

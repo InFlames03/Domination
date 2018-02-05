@@ -235,4 +235,8 @@
     <color name="dialer_primary_text_color_white">#ffffffff</color>
     <color name="icon_color_grey">#ffffffff</color>
     <color name="mtrl_chip_ripple_color">#ffffffff</color>
+
+
+    <color name="call_log_voicemail_transcript_rating_color">#ff1976d2</color>
+    <color name="mtrl_bottomappbar_default_tint">#f5000000</color>
 </resources>

@@ -437,4 +437,8 @@
     <color name="avatar_bubble_stroke">@*android:color/white</color>
     <color name="colorAccent">#ff1976d2</color>
     <color name="meeting_suggestions_view_background">@*android:color/background_dark</color>
+
+
+    <color name="dialog_accent_color">#ff1976d2</color>
+    <color name="mtrl_bottomappbar_default_tint">#f5000000</color>
 </resources>

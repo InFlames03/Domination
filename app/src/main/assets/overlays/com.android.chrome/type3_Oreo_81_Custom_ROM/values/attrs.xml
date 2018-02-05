@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="fontProviderAuthority" format="string" />
-    <attr name="fontProviderPackage" format="string" />
-    <attr name="fontProviderQuery" format="string" />
-    <attr name="fontProviderCerts" format="reference" />
-    <attr name="fontStyle">
-        <enum name="italic" value="1" />
-        <enum name="normal" value="0" />
-    </attr>
-    <attr name="font" format="reference" />
-    <attr name="fontWeight" format="integer" />
     <attr name="windowTransitionStyle">
         <enum name="none" value="2" />
         <enum name="slide" value="1" />
@@ -92,6 +82,7 @@
     <attr name="defaultIntentActivity" format="string" />
     <attr name="allowShortcuts" format="boolean" />
     <attr name="sectionType">
+        <enum name="text2" value="1" />
         <enum name="icon_uri" value="2" />
         <enum name="intent_action" value="3" />
         <enum name="intent_activity" value="8" />
@@ -100,7 +91,6 @@
         <enum name="intent_extra_data" value="6" />
         <enum name="large_icon_uri" value="7" />
         <enum name="text1" value="0" />
-        <enum name="text2" value="1" />
         <enum name="thing_proto" value="9" />
     </attr>
     <attr name="sectionContent" format="string" />
@@ -140,10 +130,21 @@
     <attr name="strokeColor" format="color" />
     <attr name="fillColor" format="color" />
     <attr name="fillColorSecondary" format="color" />
+    <attr name="stackedMargin" format="reference" />
+    <attr name="primaryButtonText" format="reference|string" />
+    <attr name="secondaryButtonText" format="reference|string" />
+    <attr name="buttonAlignment">
+        <enum name="apart" value="2" />
+        <enum name="end" value="1" />
+        <enum name="start" value="0" />
+    </attr>
+    <attr name="buttonColor" format="reference|color" />
+    <attr name="buttonRaised" format="boolean" />
+    <attr name="leading" format="reference|dimension" />
     <attr name="mapType">
-        <enum name="normal" value="1" />
         <enum name="none" value="0" />
         <enum name="hybrid" value="4" />
+        <enum name="normal" value="1" />
         <enum name="satellite" value="2" />
         <enum name="terrain" value="3" />
     </attr>
@@ -187,17 +188,25 @@
         <enum name="auto" value="2" />
     </attr>
     <attr name="scopeUris" format="reference|string" />
-    <attr name="stackedMargin" format="reference" />
-    <attr name="primaryButtonText" format="reference|string" />
-    <attr name="secondaryButtonText" format="reference|string" />
-    <attr name="buttonAlignment">
-        <enum name="apart" value="2" />
-        <enum name="end" value="1" />
-        <enum name="start" value="0" />
+    <attr name="select_dialog_multichoice" format="reference" />
+    <attr name="select_dialog_singlechoice" format="reference" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
     </attr>
-    <attr name="buttonColor" format="reference|color" />
-    <attr name="buttonRaised" format="boolean" />
-    <attr name="leading" format="reference|dimension" />
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontStyle">
+        <enum name="normal" value="0" />
+        <enum name="italic" value="1" />
+    </attr>
+    <attr name="font" format="reference" />
+    <attr name="fontWeight" format="integer" />
     <attr name="layoutManager" format="string" />
     <attr name="spanCount" format="integer" />
     <attr name="reverseLayout" format="boolean" />
@@ -242,8 +251,6 @@
         <flag name="right" value="0x00000005" />
         <flag name="top" value="0x00000030" />
     </attr>
-    <attr name="select_dialog_multichoice" format="reference" />
-    <attr name="select_dialog_singlechoice" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="height" format="dimension" />
     <attr name="isLightTheme" format="boolean" />
@@ -298,6 +305,7 @@
     <attr name="srcCompat" format="reference" />
     <attr name="tint" format="color" />
     <attr name="tintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -307,12 +315,12 @@
     <attr name="tickMark" format="reference" />
     <attr name="tickMarkTint" format="color" />
     <attr name="tickMarkTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="textAllCaps" format="reference|boolean" />
     <attr name="autoSizeTextType">
@@ -323,6 +331,7 @@
     <attr name="autoSizePresetSizes" format="reference" />
     <attr name="autoSizeMinTextSize" format="dimension" />
     <attr name="autoSizeMaxTextSize" format="dimension" />
+    <attr name="fontFamily" format="string" />
     <attr name="windowActionBar" format="boolean" />
     <attr name="windowNoTitle" format="boolean" />
     <attr name="windowActionBarOverlay" format="boolean" />
@@ -446,6 +455,7 @@
     <attr name="alpha" format="float" />
     <attr name="buttonTint" format="color" />
     <attr name="buttonTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -498,12 +508,12 @@
     <attr name="tooltipText" format="string" />
     <attr name="iconTint" format="color" />
     <attr name="iconTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="preserveIconSpacing" format="boolean" />
     <attr name="subMenuArrow" format="reference" />
@@ -526,22 +536,22 @@
     <attr name="submitBackground" format="reference" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="track" format="reference" />
     <attr name="trackTint" format="color" />
     <attr name="trackTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
-        <enum name="add" value="16" />
     </attr>
     <attr name="thumbTextPadding" format="dimension" />
     <attr name="switchTextAppearance" format="reference" />
@@ -574,6 +584,7 @@
     <attr name="theme" format="reference" />
     <attr name="backgroundTint" format="color" />
     <attr name="backgroundTintMode">
+        <enum name="add" value="16" />
         <enum name="multiply" value="14" />
         <enum name="screen" value="15" />
         <enum name="src_atop" value="9" />
@@ -744,6 +755,17 @@
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
     </attr>
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="contentPadding" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
     <attr name="mediaRouteAudioTrackDrawable" format="reference" />
     <attr name="mediaRouteButtonStyle" format="reference" />
     <attr name="mediaRouteCloseDrawable" format="reference" />
@@ -758,6 +780,7 @@
     <attr name="mediaRouteTvIconDrawable" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
+    <attr name="textSizeMaxDp" format="dimension" />
     <attr name="chrometint" format="color" />
     <attr name="url" format="string" />
     <attr name="imitateWebLink" format="boolean" />
@@ -781,4 +804,5 @@
     <attr name="titleText" format="string" />
     <attr name="noBottomSpacing" format="boolean" />
     <attr name="singleLine" format="boolean" />
+    <attr name="menuWidth" format="reference|dimension" />
 </resources>

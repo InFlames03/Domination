@@ -355,7 +355,7 @@
     </style>
 
 
-    <style name="Base.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.Theme.YouTube">
+<!--    <style name="Base.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.Theme.YouTube">
         <item name="android:windowBackground">@*com.google.android.youtube:color/theme_main_window_background</item>
         <item name="*com.google.android.youtube:backgroundPrimary">@*com.google.android.youtube:color/yt_background_1_light</item>
         <item name="*com.google.android.youtube:backgroundPrimaryInverse">@*com.google.android.youtube:color/yt_background_1_dark</item>
@@ -412,5 +412,7 @@
         <item name="*com.google.android.youtube:colorPrimaryDark">@*com.google.android.youtube:color/theme_main_color_primary_dark</item>
         <item name="*com.google.android.youtube:colorAccent">@*com.google.android.youtube:color/theme_main_color_accent</item>
         <item name="*com.google.android.youtube:colorControlHighlight">@*android:color/ripple_material_dark</item>
-    </style>
+    </style>-->
+
+
 </resources>

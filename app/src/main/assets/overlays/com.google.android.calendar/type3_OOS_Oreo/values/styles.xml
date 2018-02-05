@@ -16,11 +16,7 @@
         <item name="*com.google.android.calendar:colorAccent">@*com.google.android.calendar:color/accent_blue</item>
     </style>
 
-    <style name="DogfoodFeedbackBar">
-        <item name="android:background">@*android:color/primary_material_dark</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">@*com.google.android.calendar:dimen/dogfood_feedback_bar_height</item>
-    </style>
+
 
     <style name="Edit.Text.CustomNotification.Title" parent="@*com.google.android.calendar:style/Edit.Text.CustomNotification">
         <item name="android:textSize">16.0sp</item>
@@ -93,17 +89,7 @@
 
 
 
-    <style name="RecipientEditTextViewBase">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
-        <item name="android:background">@null</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@*com.google.android.calendar:dimen/chip_height</item>
-        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
-        <item name="android:inputType">textEmailAddress|textMultiLine</item>
-        <item name="android:textDirection">locale</item>
-        <item name="android:textAlignment">viewStart</item>
-    </style>
+
 
     <style name="RoomBookingListHeader">
         <item name="android:textSize">@*com.google.android.calendar:dimen/room_booking_list_header_text_size</item>
@@ -148,13 +134,7 @@
         <item name="android:textColor">@*android:color/secondary_text_default_material_dark</item>
     </style>
 
-    <style name="TextAppearance.DogfoodFeedbackBarSubmit" parent="@*com.google.android.calendar:style/TextAppearance">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@*android:color/secondary_text_default_material_dark</item>
-        <item name="android:layout_height">fill_parent</item>
-        <item name="android:paddingStart">@*com.google.android.calendar:dimen/dogfood_feedback_bar_horizontal_padding</item>
-        <item name="android:paddingEnd">@*com.google.android.calendar:dimen/dogfood_feedback_bar_horizontal_padding</item>
-    </style>
+
     <style name="TextAppearance.EditEvent" parent="@*com.google.android.calendar:style/TextAppearance">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textSize">18.0sp</item>
@@ -206,9 +186,7 @@
 
 
 
-    <style name="TextAppearance.Toolbar.Black" parent="@*com.google.android.calendar:style/TextAppearance.Toolbar">
-        <item name="android:textColor">@*android:color/white</item>
-    </style>
+
 
     <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
@@ -230,10 +208,22 @@
         <item name="*com.google.android.calendar:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
     </style>
     <style name="Theme.Actionbar.Base" parent="@*android:style/Widget.Holo.ActionBar.Solid" />
-    <style name="Theme.Activity.Light" parent="@*android:style/Theme.Holo" />
 
 
     <style name="growthkit_feature_highlight_black">
         <item name="android:textColor">#ffffffff</item>
+    </style>
+
+
+    <style name="FullScreenDialogToolbar" parent="@*com.google.android.calendar:style/DefaultToolbar">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="*com.google.android.calendar:titleTextAppearance">@*com.google.android.calendar:style/TextAppearance.Toolbar.White</item>
+        <item name="*com.google.android.calendar:navigationIcon">@*com.google.android.calendar:drawable/quantum_ic_arrow_back_white_24</item>
+        <item name="*com.google.android.calendar:navigationContentDescription">@*com.google.android.calendar:string/accessibility_navigation_icon</item>
+    </style>
+    <style name="RecurrencePickerTheme.Dark" parent="@*com.google.android.calendar:style/RecurrencePickerTheme">
+        <item name="*com.google.android.calendar:actionMenuTextColor">@*android:color/white</item>
     </style>
 </resources>

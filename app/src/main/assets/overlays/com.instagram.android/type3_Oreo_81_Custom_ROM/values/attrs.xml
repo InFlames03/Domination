@@ -45,6 +45,9 @@
         <enum name="cw_270" value="270" />
         <enum name="cw_90" value="90" />
     </attr>
+    <attr name="animationEnabled" format="boolean" />
+    <attr name="animationMaxTime" format="integer" />
+    <attr name="animationSpeed" format="integer" />
     <attr name="appName" format="reference|string" />
     <attr name="arrowAngle" format="float" />
     <attr name="arrowColour" format="color" />
@@ -267,6 +270,7 @@
     <attr name="directUploadButtonForegroundPressed" format="reference" />
     <attr name="directViewModesNuxAllowed" format="boolean" />
     <attr name="directVisualMessageShareSheetCheckBoxGradientEnabled" format="boolean" />
+    <attr name="directVisualMessageThumbnailMask" format="reference" />
     <attr name="direction">
         <enum name="north" value="0" />
         <enum name="south" value="1" />
@@ -282,6 +286,7 @@
     <attr name="dropoff" format="float" />
     <attr name="duration" format="integer" />
     <attr name="edgeRadius" format="dimension" />
+    <attr name="ellipsisText" format="string" />
     <attr name="enableBorder" format="boolean" />
     <attr name="enablePinchZoom" format="boolean" />
     <attr name="enablePinchZoomDeprecated" format="boolean" />
@@ -351,12 +356,12 @@
     <attr name="heartColorTint" format="color" />
     <attr name="heartHeight" format="dimension" />
     <attr name="heartMarginBottom" format="dimension" />
-    <attr name="heartMarginLeft" format="dimension" />
-    <attr name="heartMarginRight" format="dimension" />
+    <attr name="heartMarginEnd" format="dimension" />
+    <attr name="heartMarginStart" format="dimension" />
     <attr name="heartMarginTop" format="dimension" />
     <attr name="heartPaddingBottom" format="dimension" />
-    <attr name="heartPaddingLeft" format="dimension" />
-    <attr name="heartPaddingRight" format="dimension" />
+    <attr name="heartPaddingEnd" format="dimension" />
+    <attr name="heartPaddingStart" format="dimension" />
     <attr name="heartPaddingTop" format="dimension" />
     <attr name="heartWidth" format="dimension" />
     <attr name="highlightActionBarForegroundPressedColor" format="color" />
@@ -401,6 +406,7 @@
     <attr name="inversePrimaryButtonStyle" format="reference" />
     <attr name="inverseSecondaryButtonStyle" format="reference" />
     <attr name="inverseUpdatableButtonStyle" format="reference" />
+    <attr name="isCollapsible" format="boolean" />
     <attr name="isOpaque" format="boolean" />
     <attr name="keepObservingAfterRequestDisallowTouchEvent" format="boolean" />
     <attr name="label" format="reference" />
@@ -497,6 +503,7 @@
     <attr name="pillUnselectedColor" format="color" />
     <attr name="placeholder" format="reference|color" />
     <attr name="placeholderColor" format="color" />
+    <attr name="primaryButtonBackground" format="reference" />
     <attr name="primaryButtonStyle" format="reference" />
     <attr name="primaryText" format="string" />
     <attr name="profileAvatarLarge" format="reference" />
@@ -705,9 +712,8 @@
     <attr name="titleText" format="reference" />
     <attr name="tokenTextViewBackground" format="reference" />
     <attr name="tokenTextViewTextColor" format="reference|color" />
-    <attr name="tombstoneBackgroundBorderColor" format="reference" />
-    <attr name="tombstoneBackgroundColor" format="reference" />
-    <attr name="tombstonePressedBackgroundBorderColor" format="reference" />
+    <attr name="tombstoneBackground" format="reference" />
+    <attr name="tombstoneReasonClickableBackground" format="reference" />
     <attr name="toolTipColor" format="color" />
     <attr name="topBright" format="reference|color" />
     <attr name="topDark" format="reference|color" />
@@ -741,12 +747,12 @@
     <attr name="videoRecordingInnerScaleFactor" format="float" />
     <attr name="videoRecordingOuterScaleFactor" format="float" />
     <attr name="visualReplyMarginBottom" format="dimension" />
-    <attr name="visualReplyMarginLeft" format="dimension" />
-    <attr name="visualReplyMarginRight" format="dimension" />
+    <attr name="visualReplyMarginEnd" format="dimension" />
+    <attr name="visualReplyMarginStart" format="dimension" />
     <attr name="visualReplyMarginTop" format="dimension" />
     <attr name="visualReplyPaddingBottom" format="dimension" />
-    <attr name="visualReplyPaddingLeft" format="dimension" />
-    <attr name="visualReplyPaddingRight" format="dimension" />
+    <attr name="visualReplyPaddingEnd" format="dimension" />
+    <attr name="visualReplyPaddingStart" format="dimension" />
     <attr name="visualReplyPaddingTop" format="dimension" />
     <attr name="widened_track_width" format="dimension" />
     <attr name="wrappedInversePrimaryButtonStyle" format="reference" />

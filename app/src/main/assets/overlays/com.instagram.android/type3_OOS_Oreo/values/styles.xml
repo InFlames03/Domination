@@ -123,6 +123,7 @@
         <item name="*com.instagram.android:directRoundedBubbleBackground">@*com.instagram.android:drawable/rounded_bubble_background_gradient_blue</item>
         <item name="*com.instagram.android:directRoundedBubbleSelector">@*com.instagram.android:drawable/rounded_bubble_background_blue_selector</item>
         <item name="*com.instagram.android:directTextColorSelector">@*com.instagram.android:drawable/blue_text_color_selector</item>
+        <item name="*com.instagram.android:directVisualMessageThumbnailMask">@*com.instagram.android:drawable/unseen_permanent_visual_thumbnail_mask</item>
         <item name="*com.instagram.android:dividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:glyphColorPrimary">@*android:color/white</item>
         <item name="*com.instagram.android:glyphColorSecondary">@*android:color/secondary_text_default_material_dark</item>
@@ -320,7 +321,7 @@
         <item name="*com.instagram.android:activityRowPadding">@*com.instagram.android:dimen/vertical_separator_padding</item>
         <item name="*com.instagram.android:activityTitleText">@*com.instagram.android:style/activityTitleTextLegacy</item>
         <item name="*com.instagram.android:activityRowIcon">@*com.instagram.android:dimen/row_icon_size_small</item>
-        <item name="*com.instagram.android:activityRowIconLarge">@*com.instagram.android:dimen/avatar_size_medium</item>
+        <item name="*com.instagram.android:activityRowIconLarge">@*com.instagram.android:dimen/avatar_size_large</item>
         <item name="*com.instagram.android:activityBoldText">@*com.instagram.android:style/rowBoldTextLegacy</item>
         <item name="*com.instagram.android:activityPaddingMedium">@*com.instagram.android:dimen/row_text_padding</item>
         <item name="*com.instagram.android:activityBadgeIconLargeMargin">15.0dip</item>
@@ -381,9 +382,8 @@
         <item name="*com.instagram.android:label">@*com.instagram.android:style/Label</item>
         <item name="*com.instagram.android:labelLink">@*com.instagram.android:style/LabelLink</item>
         <item name="*com.instagram.android:titleText">@*com.instagram.android:style/Title</item>
-        <item name="*com.instagram.android:tombstoneBackgroundBorderColor">@*android:color/white</item>
-        <item name="*com.instagram.android:tombstoneBackgroundColor">@*com.instagram.android:color/grey_2</item>
-        <item name="*com.instagram.android:tombstonePressedBackgroundBorderColor">@*android:color/dim_foreground_light</item>
+        <item name="*com.instagram.android:tombstoneBackground">@*com.instagram.android:drawable/tombstone_background</item>
+        <item name="*com.instagram.android:tombstoneReasonClickableBackground">@*com.instagram.android:drawable/tombstone_reason_clickable_background</item>
         <item name="*com.instagram.android:titleInactive">@*com.instagram.android:style/TitleInactive</item>
         <item name="*com.instagram.android:titleButtonPrimary">@*com.instagram.android:style/TitleButtonPrimary</item>
         <item name="*com.instagram.android:searchControllerBackgroundColor">@*android:color/primary_material_dark</item>
@@ -460,6 +460,7 @@
         <item name="*com.instagram.android:toolTipColor">@*android:color/button_material_dark</item>
         <item name="*com.instagram.android:triangleSpinnerStyle">@*com.instagram.android:style/Widget.TriangleSpinner.Whiteout</item>
         <item name="*com.instagram.android:pillLabelStyle">@*com.instagram.android:style/Widget.PillDegreeLabelManager</item>
+        <item name="*com.instagram.android:primaryButtonBackground">@*com.instagram.android:drawable/primary_button_selector</item>
         <item name="*com.instagram.android:seekBarStyle">@*com.instagram.android:style/Widget.IgSeekBar</item>
         <item name="*com.instagram.android:tintPickerStyle">@*com.instagram.android:style/Widget.TintPicker</item>
         <item name="*com.instagram.android:filterListTheme">@*com.instagram.android:style/Widget.FilterList.Redesign</item>
@@ -578,9 +579,8 @@
         <item name="*com.instagram.android:textColorPrimary">@*android:color/white</item>
         <item name="*com.instagram.android:textColorRegularLink">@*android:color/white</item>
         <item name="*com.instagram.android:textColorSecondary">@*android:color/secondary_text_default_material_dark</item>
-        <item name="*com.instagram.android:tombstoneBackgroundBorderColor">@*android:color/white</item>
-        <item name="*com.instagram.android:tombstoneBackgroundColor">@*android:color/background_dark</item>
-        <item name="*com.instagram.android:tombstonePressedBackgroundBorderColor">@*android:color/dim_foreground_light</item>
+        <item name="*com.instagram.android:tombstoneBackground">@*com.instagram.android:drawable/tombstone_background_video_feed</item>
+        <item name="*com.instagram.android:tombstoneReasonClickableBackground">@*com.instagram.android:drawable/tombstone_reason_clickable_background_video_feed</item>
     </style>
 
 

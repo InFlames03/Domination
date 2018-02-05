@@ -90,7 +90,6 @@
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="material_grey_900">@*android:color/primary_material_dark</color>
     <color name="material_grey_850">@*android:color/background_dark</color>
-    <color name="material_grey_800">@*android:color/background_floating_material_dark</color>
     <color name="material_grey_600">@*android:color/background_dark</color>
     <color name="material_grey_100">@*android:color/primary_material_dark</color>
     <color name="material_grey_50">@*android:color/background_dark</color>

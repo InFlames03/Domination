@@ -24,18 +24,6 @@
         <item name="android:textColorHint">?android:textColorHint</item>
         <item name="android:textColorLink">?android:textColorLink</item>
     </style>
-    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse" parent="@*com.google.android.calendar:style/Base.TextAppearance.AppCompat.Subhead">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:textColorHighlight">?android:textColorHighlight</item>
-        <item name="android:textColorHint">?android:textColorHint</item>
-        <item name="android:textColorLink">?android:textColorLink</item>
-    </style>
-    <style name="Base.TextAppearance.AppCompat.Title.Inverse" parent="@*com.google.android.calendar:style/Base.TextAppearance.AppCompat.Title">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:textColorHighlight">?android:textColorHighlight</item>
-        <item name="android:textColorHint">?android:textColorHint</item>
-        <item name="android:textColorLink">?android:textColorLink</item>
-    </style>
 
     <style name="Platform.V11.AppCompat.Light" parent="@*android:style/Theme.Holo" />
 

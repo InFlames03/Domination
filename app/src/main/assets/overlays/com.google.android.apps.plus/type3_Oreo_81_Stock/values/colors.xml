@@ -259,13 +259,13 @@
     <color name="profile_edit_bg">@*android:color/background_dark</color>
     <color name="profile_follow_button_blocked_color">#12000000</color>
     <color name="profile_follow_button_ripple_color">#4dffffff</color>
-    <color name="profile_follow_button_selected_color">#12000000</color>
+    <color name="profile_follow_button_selected_color">#12555555</color>
     <color name="profile_local_burgundy">#ffb71c1c</color>
     <color name="profile_local_zagat_explanation_background_bottom">#83000000</color>
     <color name="profile_local_zagat_explanation_background_top">@*android:color/background_dark</color>
     <color name="profile_local_zagat_explanation_circle">@*android:color/button_material_dark</color>
     <color name="promo_auto_backup_button_background">#00000000</color>
-    <color name="promo_auto_backup_button_background_pressed">#20000000</color>
+    <color name="promo_auto_backup_button_background_pressed">#20555555</color>
     <color name="promo_divider_color">#00000000</color>
     <color name="promo_explore_topics_bg">#ff1976d2</color>
     <color name="promo_new_aam_bg_pressed">#ff1976d2</color>
@@ -383,7 +383,7 @@
     <color name="write_place_review_bg">@*android:color/background_dark</color>
     <color name="year_row_divider">#00000000</color>
     <color name="youtube_settings_prompt_bg">@*android:color/background_dark</color>
-    <color name="quantum_white_100">@*android:color/background_dark</color>
+
 
 
     <color name="quantum_lightblue500">#ff1976d2</color>
@@ -403,4 +403,29 @@
     <color name="poll_option_light_gray">#ff512da8</color>
     <color name="white_54">@*android:color/background_floating_material_dark</color>
     <color name="quantum_bluegrey900">#ffdddddd</color>
+
+
+    <color name="basic_card_icon_background_color">#ffe91e63</color>
+    <color name="collexion_disabled_action_text_color">#89ffffff</color>
+    <color name="comment_user_plus_oned_text">#ffd32f2f</color>
+    <color name="entity_transparent_follow_button_ripple_color">#4dffffff</color>
+    <color name="entity_transparent_follow_button_selected_color">#33555555</color>
+    <color name="media_picker2_selected_photo_background">#66000000</color>
+    <color name="media_picker2_tile_text">#ffffffff</color>
+    <color name="nav_menu_item_selected_background">#ff555555</color>
+    <color name="one_up_overlay">#fffbc02d</color>
+    <color name="poll_option_bar_black_color">#ffbbbbbb</color>
+    <color name="poll_option_bar_dark_blue_color">#ff0d47a1</color>
+    <color name="poll_option_bar_dark_grey_color">#ff555555</color>
+    <color name="poll_option_bar_light_blue_color">#ff1976d2</color>
+    <color name="poll_option_bar_light_grey_color">#ff787878</color>
+    <color name="poll_status_intent_color">#ff1976d2</color>
+    <color name="poll_status_text_color">#ffdddddd</color>
+    <color name="socialpost_header_text">#ffffffff</color>
+    <color name="transparent_contributor_label_pressed">#ffffffff</color>
+    <color name="transparent_entity_follow_button_pressed">#33555555</color>
+    <color name="transparent_entity_follow_button_ripple_color">#4dffffff</color>
+    <color name="white_overlay">#ff009688</color>
+    <color name="quantum_googred500">#ffd32f2f</color>
+    <color name="quantum_googgreen500">#ff388e3c</color>
 </resources>
