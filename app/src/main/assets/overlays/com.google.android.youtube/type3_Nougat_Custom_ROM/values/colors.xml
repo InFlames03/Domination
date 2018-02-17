@@ -739,9 +739,9 @@
     <color name="yt_inactive_grey_1_light">#ffaaaaaa</color>
     <color name="yt_inactive_grey_2_dark">#ffaaaaaa</color>
     <color name="yt_inactive_grey_2_light">#ffaaaaaa</color>
-    <color name="yt_selected_nav_icon_dark">#ffffffff</color>
+    <color name="yt_selected_nav_icon_dark">#ffd32f2f</color>
     <color name="yt_selected_nav_icon_light">#ffd32f2f</color>
-    <color name="yt_selected_nav_label_dark">#ffffffff</color>
+    <color name="yt_selected_nav_label_dark">#ffd32f2f</color>
     <color name="yt_selected_nav_label_light">#ffd32f2f</color>
     <color name="yt_static_grey">#ffffffff</color>
     <color name="yt_static_white">#ffffffff</color>
@@ -815,8 +815,8 @@
     <color name="ad_blue_light">#ff1976d2</color>
     <color name="ad_muted_background_dark">@*android:color/button_material_dark</color>
     <color name="ad_muted_background_light">@*android:color/button_material_dark</color>
-    <color name="ad_separator_dark">#00000000</color>
-    <color name="ad_separator_light">#00000000</color>
+    <color name="ad_separator_1_dark">#00000000</color>
+    <color name="ad_separator_1_light">#00000000</color>
     <color name="ad_text_1_dark">#ffffffff</color>
     <color name="ad_text_1_light">#ffffffff</color>
     <color name="ad_text_2_dark">#ffdddddd</color>
@@ -846,4 +846,25 @@
     <color name="reel_subs_text_color_subscribed">#ffdddddd</color>
     <color name="yt_static_dark_background_1_dark">@*android:color/background_dark</color>
     <color name="yt_static_dark_background_1_light">@*android:color/background_dark</color>
+
+
+    <color name="ad_separator_2_dark">#00000000</color>
+    <color name="ad_separator_2_light">#00000000</color>
+    <color name="ad_text_3_dark">#ffffffff</color>
+    <color name="ad_text_3_light">#ffffffff</color>
+    <color name="ad_text_4_dark">#ffdddddd</color>
+    <color name="ad_text_4_light">#ffdddddd</color>
+    <color name="chat_background">@*android:color/background_dark</color>
+    <color name="chat_message_bubble_background_other_author">@*android:color/button_material_dark</color>
+    <color name="chat_message_bubble_background_viewer_is_author">@*android:color/button_material_dark</color>
+    <color name="ghost_white">#aa000000</color>
+    <color name="yt_header_icon_dark">#ffffffff</color>
+    <color name="yt_header_icon_light">#ffffffff</color>
+    <color name="yt_status_bar_background_dark">@*android:color/primary_dark_material_dark</color>
+    <color name="yt_status_bar_background_light">@*android:color/primary_dark_material_dark</color>
+    <color name="yt_unselected_nav_icon_dark">#ffdddddd</color>
+    <color name="yt_unselected_nav_icon_light">#ffdddddd</color>
+
+
+    <color name="edit_red">#ffd32f2f</color>
 </resources>

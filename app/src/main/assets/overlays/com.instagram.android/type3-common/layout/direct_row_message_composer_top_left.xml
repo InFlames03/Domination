@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@*com.instagram.android:id/message_composer" android:background="@*android:color/background_dark" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@*com.instagram.android:layout/direct_composer_bar_top_left" />
-    <include layout="@*com.instagram.android:layout/direct_composer_gallery" />
-</FrameLayout>

@@ -316,4 +316,8 @@
 
 
     <color name="focused_background_white">#33555555</color>
+
+
+    <color name="dialog_accent_color">#ff1976d2</color>
+    <color name="mtrl_card_bg_color">@*android:color/background_floating_material_dark</color>
 </resources>

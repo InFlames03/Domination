@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CardboardDialogTheme" parent="@*android:style/Theme.Material.Dialog" />
-    <style name="youtube_wallet_custom_theme">
-        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
-    </style>
+
     <style name="QuantumFloatingActionButton">
         <item name="android:elevation">4.0dip</item>
         <item name="*com.google.android.youtube:quantumFabColor">@*com.google.android.youtube:color/quantum_googred</item>

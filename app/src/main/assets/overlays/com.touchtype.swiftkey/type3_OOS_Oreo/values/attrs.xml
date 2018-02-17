@@ -5,6 +5,7 @@
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="fabColor" format="color" />
     <attr name="height" format="dimension" />
+    <attr name="iconRes" format="reference" />
     <attr name="isLightTheme" format="boolean" />
     <attr name="stringFormat" format="reference" />
     <attr name="stringFormatArg" format="reference" />
@@ -239,7 +240,6 @@
     <attr name="tooltipFrameBackground" format="reference" />
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
-    <attr name="bordered" format="boolean" />
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
     </attr>
@@ -383,8 +383,17 @@
     <attr name="useCompatPadding" format="boolean" />
     <attr name="behavior_autoHide" format="boolean" />
     <attr name="offsetChild" format="reference" />
-    <attr name="leftFloat" format="boolean" />
     <attr name="dockable" format="boolean" />
+    <attr name="defaultVerticalPosition">
+        <enum name="bottom" value="3" />
+        <enum name="center" value="2" />
+        <enum name="top" value="1" />
+    </attr>
+    <attr name="defaultHorizontalPosition">
+        <enum name="center" value="2" />
+        <enum name="left" value="1" />
+        <enum name="right" value="3" />
+    </attr>
     <attr name="backgroundId">
         <enum name="gameModePaddle" value="2" />
         <enum name="normalPaddle" value="1" />
@@ -558,10 +567,11 @@
         <enum name="icon_SpaceKey_OpenBox" value="14" />
         <enum name="icon_SplitLayoutKeyQWERTY" value="16" />
         <enum name="icon_TabKey" value="11" />
-        <enum name="icon_default_layout" value="21" />
         <enum name="icon_downArrow" value="10" />
-        <enum name="icon_handwriting_squiggle" value="20" />
+        <enum name="icon_handwriting_layout" value="20" />
+        <enum name="icon_keyboard_layout" value="21" />
         <enum name="icon_leftArrow" value="7" />
+        <enum name="icon_reverseKey" value="18" />
         <enum name="icon_rightArrow" value="8" />
         <enum name="icon_smiley" value="19" />
         <enum name="icon_upArrow" value="9" />
@@ -580,10 +590,11 @@
         <enum name="icon_SpaceKey_OpenBox" value="14" />
         <enum name="icon_SplitLayoutKeyQWERTY" value="16" />
         <enum name="icon_TabKey" value="11" />
-        <enum name="icon_default_layout" value="21" />
         <enum name="icon_downArrow" value="10" />
-        <enum name="icon_handwriting_squiggle" value="20" />
+        <enum name="icon_handwriting_layout" value="20" />
+        <enum name="icon_keyboard_layout" value="21" />
         <enum name="icon_leftArrow" value="7" />
+        <enum name="icon_reverseKey" value="18" />
         <enum name="icon_rightArrow" value="8" />
         <enum name="icon_smiley" value="19" />
         <enum name="icon_upArrow" value="9" />
@@ -687,6 +698,7 @@
     <attr name="fastScrollVerticalTrackDrawable" format="reference" />
     <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
     <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="cornerRadius" format="float" />
     <attr name="insetForeground" format="reference|color" />
     <attr name="showInitialScrollbarHint" format="boolean" />
     <attr name="behavior_overlapTop" format="dimension" />
@@ -799,9 +811,12 @@
         <enum name="src_over" value="3" />
     </attr>
     <attr name="customTint" format="reference|color" />
+    <attr name="text" format="string" />
     <attr name="tipSummaryText" format="string" />
     <attr name="tipActionText" format="string" />
     <attr name="tipIcon" format="reference" />
+    <attr name="titlePreferenceKey" format="string" />
+    <attr name="iconContentDescription" format="string" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />

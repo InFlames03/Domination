@@ -4,9 +4,13 @@
     <attr name="adBackground2" format="reference|color" />
     <attr name="adBlue" format="reference|color" />
     <attr name="adMutedBackground" format="reference|color" />
-    <attr name="adSeparator" format="reference|color" />
+    <attr name="adOverlayBackground" format="reference|color" />
+    <attr name="adSeparator1" format="reference|color" />
+    <attr name="adSeparator2" format="reference|color" />
     <attr name="adText1" format="reference|color" />
     <attr name="adText2" format="reference|color" />
+    <attr name="adText3" format="reference|color" />
+    <attr name="adText4" format="reference|color" />
     <attr name="aspectRatio" format="float" />
     <attr name="backgroundPrimary" format="reference" />
     <attr name="backgroundPrimaryInverse" format="reference" />
@@ -14,7 +18,12 @@
     <attr name="backgroundSecondaryInverse" format="reference" />
     <attr name="backgroundTertiary" format="reference" />
     <attr name="backgroundTertiaryInverse" format="reference" />
+    <attr name="bottomNavigationStyle" format="reference" />
+    <attr name="cardViewStyle" format="reference" />
     <attr name="castExpandedControllerToolbarStyle" format="reference" />
+    <attr name="chipGroupStyle" format="reference" />
+    <attr name="chipStandaloneStyle" format="reference" />
+    <attr name="chipStyle" format="reference" />
     <attr name="cmtAvatarHeartOverlayDefault" format="reference|color" />
     <attr name="cmtBgStyleDefault" format="reference|color" />
     <attr name="cmtBgStyleGrey" format="reference|color" />
@@ -24,14 +33,22 @@
     <attr name="cmtSponsorBadgeBackground" format="reference|color" />
     <attr name="cmtSponsorsOnlyBadge" format="reference|color" />
     <attr name="colorControlSelected" format="color" />
+    <attr name="colorPalettePrimary" format="reference" />
+    <attr name="colorPaletteSecondary" format="reference" />
     <attr name="colorPrimaryAlternate" format="reference" />
+    <attr name="colorPrimaryLight" format="color" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondaryDark" format="color" />
+    <attr name="colorSecondaryLight" format="color" />
     <attr name="constraintSet" format="reference" />
     <attr name="controller_layout_id" format="reference" />
     <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="defaultItemSelector" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="fastforward_increment" format="integer" />
+    <attr name="floatingActionButtonStyle" format="reference" />
     <attr name="height" format="dimension" />
+    <attr name="hideMotionSpec" format="reference" />
     <attr name="ignoreAspectRatio" format="boolean" />
     <attr name="isLightTheme" format="boolean" />
     <attr name="layout_constraintBaseline_creator" format="integer" />
@@ -130,6 +147,9 @@
     <attr name="liveChatShimmerLoadingFrameShimmerStartColor" format="reference" />
     <attr name="loadingFrameErrorDrawable" format="reference" />
     <attr name="loadingFrameTextColor" format="reference" />
+    <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialCardViewStyle" format="reference" />
+    <attr name="materialSwitchStyle" format="reference" />
     <attr name="maxHeight" format="dimension" />
     <attr name="maxWidth" format="dimension" />
     <attr name="mediaRouteAudioTrackDrawable" format="reference" />
@@ -157,8 +177,12 @@
         <enum name="fit" value="0" />
         <enum name="fixed_height" value="2" />
         <enum name="fixed_width" value="1" />
+        <enum name="zoom" value="4" />
     </attr>
     <attr name="rewind_increment" format="integer" />
+    <attr name="rippleColor" format="color" />
+    <attr name="scrimBackground" format="reference|color" />
+    <attr name="showMotionSpec" format="reference" />
     <attr name="show_shuffle_button" format="boolean" />
     <attr name="show_timeout" format="integer" />
     <attr name="surface_type">
@@ -166,15 +190,29 @@
         <enum name="surface_view" value="1" />
         <enum name="texture_view" value="2" />
     </attr>
+    <attr name="textAppearanceBody1" format="reference" />
     <attr name="textAppearanceBody1Inverse" format="reference" />
+    <attr name="textAppearanceBody2" format="reference" />
     <attr name="textAppearanceBody2Inverse" format="reference" />
+    <attr name="textAppearanceButton" format="reference" />
+    <attr name="textAppearanceCaption" format="reference" />
     <attr name="textAppearanceCaptionInverse" format="reference" />
     <attr name="textAppearanceHeadline" format="reference" />
+    <attr name="textAppearanceHeadline1" format="reference" />
+    <attr name="textAppearanceHeadline2" format="reference" />
+    <attr name="textAppearanceHeadline3" format="reference" />
+    <attr name="textAppearanceHeadline4" format="reference" />
+    <attr name="textAppearanceHeadline5" format="reference" />
+    <attr name="textAppearanceHeadline6" format="reference" />
     <attr name="textAppearanceMenu" format="reference" />
+    <attr name="textAppearanceOverline" format="reference" />
     <attr name="textAppearanceSubhead" format="reference" />
     <attr name="textAppearanceSubheadInverse" format="reference" />
+    <attr name="textAppearanceSubtitle1" format="reference" />
+    <attr name="textAppearanceSubtitle2" format="reference" />
     <attr name="textAppearanceTitle" format="reference" />
     <attr name="textAppearanceTitleInverse" format="reference" />
+    <attr name="textInputStyle" format="reference" />
     <attr name="title" format="string" />
     <attr name="ytBackground1" format="reference|color" />
     <attr name="ytBackground2" format="reference|color" />
@@ -185,20 +223,25 @@
     <attr name="ytBadgeText1" format="reference|color" />
     <attr name="ytBadgeText2" format="reference|color" />
     <attr name="ytBrandRed" format="reference|color" />
+    <attr name="ytHeaderIcon" format="reference|color" />
     <attr name="ytIcon1" format="reference|color" />
     <attr name="ytIcon2" format="reference|color" />
     <attr name="ytMutedBackground1" format="reference|color" />
     <attr name="ytMutedBackground2" format="reference|color" />
     <attr name="ytMutedBackground3" format="reference|color" />
+    <attr name="ytSelectedNavIcon" format="reference|color" />
+    <attr name="ytSelectedNavText" format="reference|color" />
     <attr name="ytStaticBlue" format="reference|color" />
     <attr name="ytStaticDarkBackground1" format="reference|color" />
     <attr name="ytStaticGreen" format="reference|color" />
     <attr name="ytStaticGrey" format="reference|color" />
     <attr name="ytStaticWhite" format="reference|color" />
     <attr name="ytStaticYellow" format="reference|color" />
+    <attr name="ytStatusBarBackground" format="reference|color" />
     <attr name="ytText1" format="reference|color" />
     <attr name="ytText2" format="reference|color" />
     <attr name="ytText3" format="reference|color" />
+    <attr name="ytUnselectedNavIcon" format="reference|color" />
     <attr name="backgroundViewId" format="reference" />
     <attr name="footerViewId" format="reference" />
     <attr name="navigationMode">
@@ -434,28 +477,19 @@
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
     <attr name="viewInflaterClass" format="string" />
-    <attr name="fabAlignmentMode">
-        <enum name="center" value="0" />
-        <enum name="right" value="1" />
-    </attr>
-    <attr name="fabAttached" format="boolean" />
-    <attr name="fabCradleDiameter" format="dimension" />
-    <attr name="fabCradleRoundedCornerRadius" format="dimension" />
-    <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="menu" format="reference" />
     <attr name="labelVisibilityMode">
+        <enum name="auto" value="-1" />
         <enum name="labeled" value="1" />
-        <enum name="legacy" value="-1" />
         <enum name="selected" value="0" />
         <enum name="unlabeled" value="2" />
     </attr>
+    <attr name="itemBackground" format="reference" />
+    <attr name="itemIconTint" format="color" />
     <attr name="itemTextAppearanceInactive" format="reference" />
     <attr name="itemTextAppearanceActive" format="reference" />
+    <attr name="itemTextColor" format="color" />
     <attr name="itemHorizontalTranslation" format="boolean" />
-    <attr name="shiftingMode">
-        <enum name="auto" value="-1" />
-        <enum name="off" value="0" />
-        <enum name="on" value="1" />
-    </attr>
     <attr name="behavior_peekHeight" format="dimension">
         <enum name="auto" value="-1" />
     </attr>
@@ -707,6 +741,8 @@
     <attr name="unplayed_color" format="color" />
     <attr name="ad_marker_color" format="color" />
     <attr name="played_ad_marker_color" format="color" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
     <attr name="drawableSize" format="dimension" />
@@ -731,7 +767,77 @@
     <attr name="facePileStrokeWidth" format="dimension" />
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
-    <attr name="rippleColor" format="color" />
+    <attr name="flexDirection">
+        <enum name="column" value="2" />
+        <enum name="column_reverse" value="3" />
+        <enum name="row" value="0" />
+        <enum name="row_reverse" value="1" />
+    </attr>
+    <attr name="flexWrap">
+        <enum name="wrap" value="1" />
+        <enum name="nowrap" value="0" />
+        <enum name="wrap_reverse" value="2" />
+    </attr>
+    <attr name="justifyContent">
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="space_around" value="4" />
+        <enum name="space_between" value="3" />
+    </attr>
+    <attr name="alignItems">
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="baseline" value="3" />
+        <enum name="stretch" value="4" />
+    </attr>
+    <attr name="alignContent">
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="space_around" value="4" />
+        <enum name="space_between" value="3" />
+        <enum name="stretch" value="5" />
+    </attr>
+    <attr name="dividerDrawable" format="reference" />
+    <attr name="dividerDrawableHorizontal" format="reference" />
+    <attr name="dividerDrawableVertical" format="reference" />
+    <attr name="showDivider">
+        <flag name="none" value="0x00000000" />
+        <flag name="end" value="0x00000004" />
+        <flag name="beginning" value="0x00000001" />
+        <flag name="middle" value="0x00000002" />
+    </attr>
+    <attr name="showDividerHorizontal">
+        <flag name="none" value="0x00000000" />
+        <flag name="end" value="0x00000004" />
+        <flag name="beginning" value="0x00000001" />
+        <flag name="middle" value="0x00000002" />
+    </attr>
+    <attr name="showDividerVertical">
+        <flag name="none" value="0x00000000" />
+        <flag name="end" value="0x00000004" />
+        <flag name="beginning" value="0x00000001" />
+        <flag name="middle" value="0x00000002" />
+    </attr>
+    <attr name="layout_order" format="integer" />
+    <attr name="layout_flexGrow" format="float" />
+    <attr name="layout_flexShrink" format="float" />
+    <attr name="layout_flexBasisPercent" format="fraction" />
+    <attr name="layout_alignSelf">
+        <enum name="center" value="2" />
+        <enum name="auto" value="-1" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="baseline" value="3" />
+        <enum name="stretch" value="4" />
+    </attr>
+    <attr name="layout_minWidth" format="dimension" />
+    <attr name="layout_minHeight" format="dimension" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="layout_wrapBefore" format="boolean" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
@@ -743,8 +849,6 @@
     <attr name="borderWidth" format="dimension" />
     <attr name="useCompatPadding" format="boolean" />
     <attr name="maxImageSize" format="dimension" />
-    <attr name="showMotionSpec" format="reference" />
-    <attr name="hideMotionSpec" format="reference" />
     <attr name="behavior_autoHide" format="boolean" />
     <attr name="fontProviderAuthority" format="string" />
     <attr name="fontProviderPackage" format="string" />
@@ -849,36 +953,6 @@
     <attr name="latLngBoundsSouthWestLongitude" format="float" />
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
-    <attr name="colorPrimaryLight" format="color" />
-    <attr name="colorSecondary" format="color" />
-    <attr name="colorSecondaryLight" format="color" />
-    <attr name="colorSecondaryDark" format="color" />
-    <attr name="colorPalettePrimary" format="reference" />
-    <attr name="colorPaletteSecondary" format="reference" />
-    <attr name="scrimBackground" format="reference|color" />
-    <attr name="bottomSheetDialogTheme" format="reference" />
-    <attr name="bottomSheetStyle" format="reference" />
-    <attr name="materialButtonStyle" format="reference" />
-    <attr name="materialSwitchStyle" format="reference" />
-    <attr name="floatingActionButtonStyle" format="reference" />
-    <attr name="chipGroupStyle" format="reference" />
-    <attr name="chipStyle" format="reference" />
-    <attr name="chipStandaloneStyle" format="reference" />
-    <attr name="bottomAppBarStyle" format="reference" />
-    <attr name="cardViewStyle" format="reference" />
-    <attr name="textAppearanceHeadline1" format="reference" />
-    <attr name="textAppearanceHeadline2" format="reference" />
-    <attr name="textAppearanceHeadline3" format="reference" />
-    <attr name="textAppearanceHeadline4" format="reference" />
-    <attr name="textAppearanceHeadline5" format="reference" />
-    <attr name="textAppearanceHeadline6" format="reference" />
-    <attr name="textAppearanceSubtitle1" format="reference" />
-    <attr name="textAppearanceSubtitle2" format="reference" />
-    <attr name="textAppearanceBody1" format="reference" />
-    <attr name="textAppearanceBody2" format="reference" />
-    <attr name="textAppearanceCaption" format="reference" />
-    <attr name="textAppearanceButton" format="reference" />
-    <attr name="textAppearanceOverline" format="reference" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -924,10 +998,6 @@
     <attr name="selectedItemTextColor" format="reference|color" />
     <attr name="unselectedItemTextColor" format="reference|color" />
     <attr name="primaryIconTintColor" format="color" />
-    <attr name="menu" format="reference" />
-    <attr name="itemIconTint" format="color" />
-    <attr name="itemTextColor" format="color" />
-    <attr name="itemBackground" format="reference" />
     <attr name="itemTextAppearance" format="reference" />
     <attr name="headerLayout" format="reference" />
     <attr name="scrimViewId" format="reference" />
@@ -951,6 +1021,13 @@
     <attr name="timeTextColor" format="color" />
     <attr name="scrubberMinSize" format="dimension" />
     <attr name="scrubberMaxSize" format="dimension" />
+    <attr name="use_artwork" format="boolean" />
+    <attr name="shutter_background_color" format="color" />
+    <attr name="default_artwork" format="reference" />
+    <attr name="use_controller" format="boolean" />
+    <attr name="hide_on_touch" format="boolean" />
+    <attr name="hide_during_ads" format="boolean" />
+    <attr name="auto_show" format="boolean" />
     <attr name="seasonsViewId" format="reference" />
     <attr name="renderThumbnailAsSquare" format="boolean" />
     <attr name="labelTextSize" format="dimension" />
@@ -1031,13 +1108,6 @@
         <enum name="light" value="1" />
     </attr>
     <attr name="scopeUris" format="reference|string" />
-    <attr name="use_artwork" format="boolean" />
-    <attr name="shutter_background_color" format="color" />
-    <attr name="default_artwork" format="reference" />
-    <attr name="use_controller" format="boolean" />
-    <attr name="hide_on_touch" format="boolean" />
-    <attr name="hide_during_ads" format="boolean" />
-    <attr name="auto_show" format="boolean" />
     <attr name="expandedSize0" format="dimension" />
     <attr name="expandedSize1" format="dimension" />
     <attr name="orientation">
@@ -1078,9 +1148,9 @@
         <flag name="bold" value="0x00000001" />
     </attr>
     <attr name="start_layout" format="reference" />
-    <attr name="start_background" format="reference" />
+    <attr name="start_background" format="reference|color" />
     <attr name="end_layout" format="reference" />
-    <attr name="end_background" format="reference" />
+    <attr name="end_background" format="reference|color" />
     <attr name="thumbTint" format="color" />
     <attr name="thumbTintMode">
         <enum name="add" value="16" />
@@ -1147,6 +1217,7 @@
         <enum name="src_over" value="3" />
     </attr>
     <attr name="tabRippleColor" format="color" />
+    <attr name="tabUnboundedRipple" format="boolean" />
     <attr name="background_dark" format="color" />
     <attr name="tab_scroll_margin" format="dimension" />
     <attr name="tab_highlight_height" format="dimension" />
@@ -1203,6 +1274,7 @@
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />
     <attr name="boxStrokeWidth" format="dimension" />
+    <attr name="enforceMaterialTheme" format="boolean" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />

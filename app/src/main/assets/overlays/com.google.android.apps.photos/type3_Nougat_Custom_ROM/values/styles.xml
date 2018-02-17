@@ -138,6 +138,7 @@
         <item name="*com.google.android.apps.photos:supportRingtonePreferenceStyle">@*com.google.android.apps.photos:style/SupportPreference.RingtonePreference</item>
         <item name="*com.google.android.apps.photos:supportPreferencePanelStyle">@*com.google.android.apps.photos:style/SupportPreferencePanel</item>
         <item name="*com.google.android.apps.photos:supportSwitchPreferenceStyle">@*com.google.android.apps.photos:style/SupportPreference.SwitchPreference</item>
+        <item name="android:navigationBarColor">@*android:color/black</item>
     </style>
     <style name="Theme.Photos.Base" parent="@*com.google.android.apps.photos:style/Theme.AppCompat">
         <item name="android:icon">@*android:color/transparent</item>
@@ -266,4 +267,7 @@
         <item name="android:textColorPrimary">@*android:color/white</item>
         <item name="android:textColor">@*android:color/white</item>
     </style>
+
+
+
 </resources>

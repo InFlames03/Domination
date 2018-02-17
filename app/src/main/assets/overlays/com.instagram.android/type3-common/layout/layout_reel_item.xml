@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/lib/com.instagram.android">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.instagram.android">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <ViewStub android:id="@*com.instagram.android:id/reel_viewer_zero_rating_data_banner_stub" android:layout="@*com.instagram.android:layout/zero_rating_data_banner" android:layout_width="fill_parent" android:layout_height="@*com.instagram.android:dimen/zero_rating_data_banner_height" />
         <com.instagram.reels.viewer.ReelViewGroup android:id="@*com.instagram.android:id/reel_mention_overlay" android:background="@*android:color/background_floating_material_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
@@ -10,6 +10,7 @@
                 <com.instagram.common.ui.widget.imageview.IgImageView android:id="@*com.instagram.android:id/reel_viewer_decor_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 <com.instagram.common.ui.widget.imageview.IgImageView android:id="@*com.instagram.android:id/reel_viewer_image_view_transition" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 <com.instagram.feed.widget.IgProgressImageView android:id="@*com.instagram.android:id/reel_viewer_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:perfTrackingCategory="reel_media" app:retryType="icon" />
+                <ViewStub android:layout_gravity="bottom|center" android:id="@*com.instagram.android:id/media_subtitle_view_stub" android:layout="@*com.instagram.android:layout/view_media_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@*com.instagram.android:dimen/subtitle_horizontal_margin" android:layout_marginRight="@*com.instagram.android:dimen/subtitle_horizontal_margin" android:layout_marginBottom="@*com.instagram.android:dimen/subtitle_margin_bottom_in_story" />
             </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
             <ViewStub android:id="@*com.instagram.android:id/reel_poll_stub" android:layout="@*com.instagram.android:layout/reel_poll" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             <View android:id="@*com.instagram.android:id/reel_viewer_top_shadow" android:background="@*com.instagram.android:drawable/reel_viewer_shadow_top" android:layout_width="fill_parent" android:layout_height="70.0dip" />

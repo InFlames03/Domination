@@ -447,6 +447,7 @@
         <item name="*com.instagram.android:defaultActionBarBackIcon">@*com.instagram.android:drawable/nav_arrow_back</item>
         <item name="*com.instagram.android:mediaPickerBackground">@*android:color/background_dark</item>
         <item name="*com.instagram.android:mediaPickerSpacing">1.5dip</item>
+        <item name="*com.instagram.android:mediaPlaceholderColor">@*android:color/white</item>
         <item name="*com.instagram.android:mediaTabStyle">@*com.instagram.android:style/Widget.MediaTabHost</item>
         <item name="*com.instagram.android:tabBarHeight">@*com.instagram.android:dimen/tab_bar_height_whiteout</item>
         <item name="*com.instagram.android:tabButtonBackground">@*android:color/background_floating_material_dark</item>
@@ -570,6 +571,7 @@
         <item name="*com.instagram.android:glyphColorPrimary">@*android:color/white</item>
         <item name="*com.instagram.android:glyphColorSecondary">@*android:color/white</item>
         <item name="*com.instagram.android:glyphColorSecondaryActive">@*android:color/secondary_text_default_material_dark</item>
+        <item name="*com.instagram.android:mediaPlaceholderColor">@*android:color/white</item>
         <item name="*com.instagram.android:rowDividerColor">@*android:color/transparent</item>
         <item name="*com.instagram.android:shouldHideAllComments">true</item>
         <item name="*com.instagram.android:shouldTruncateCaptionToSingleLine">true</item>

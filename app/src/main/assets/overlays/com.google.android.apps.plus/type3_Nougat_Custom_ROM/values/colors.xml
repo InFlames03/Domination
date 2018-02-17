@@ -428,4 +428,6 @@
     <color name="white_overlay">#ff009688</color>
     <color name="quantum_googred500">#ffd32f2f</color>
     <color name="quantum_googgreen500">#ff388e3c</color>
+
+    <color name="mtrl_card_bg_color">@*android:color/background_floating_material_dark</color>
 </resources>

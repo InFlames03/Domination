@@ -15,5 +15,4 @@
         <item name="android:layout_marginRight">16.0dip</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
-
 </resources>

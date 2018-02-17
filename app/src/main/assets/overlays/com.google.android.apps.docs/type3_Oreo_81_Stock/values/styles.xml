@@ -115,11 +115,11 @@
         <item name="android:textSize">@*com.google.android.apps.docs:dimen/m_text_size_body</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">0.0dip</item>
         <item name="android:layout_marginTop">0.0dip</item>
-        <item name="android:layout_marginRight">0.0dip</item>
         <item name="android:layout_marginBottom">0.0dip</item>
         <item name="android:minHeight">@*com.google.android.apps.docs:dimen/m_touch_target_size</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
     </style>
 
     <style name="WelcomeThemeBase" parent="@*android:style/Theme.Holo.NoActionBar">
@@ -128,9 +128,7 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
 
-    <style name="Base.Widget.Design.AppBarLayout" parent="@*android:style/Widget">
-        <item name="android:background">@*android:color/background_floating_material_dark</item>
-    </style>
+
     <style name="Widget.Design.BottomSheet.Modal" parent="@*android:style/Widget">
         <item name="android:background">@*android:color/background_floating_material_dark</item>
         <item name="*com.google.android.apps.docs:behavior_peekHeight">auto</item>
@@ -207,5 +205,28 @@
     <style name="CallToActionButton" parent="@*com.google.android.apps.docs:style/Theme.AppCompat">
         <item name="android:textColorPrimary">@*com.google.android.apps.docs:color/quantum_googblue500</item>
         <item name="*com.google.android.apps.docs:colorButtonNormal">@*android:color/button_material_dark</item>
+    </style>
+
+
+    <style name="DetailInfoCard_Text.Secondary" parent="@*com.google.android.apps.docs:style/DetailInfoCard_Text">
+        <item name="android:textSize">@*com.google.android.apps.docs:dimen/m_entry_text_size_tertiary</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_weight">0.47</item>
+    </style>
+    <style name="SiteAccessOptionsDialogMessage.InfoTextAppearance" parent="@*com.google.android.apps.docs:style/SiteAccessOptionsDialogMessage">
+        <item name="android:textSize">@*com.google.android.apps.docs:dimen/m_entry_text_size_secondary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="DevFlagsAppTheme" parent="@*com.google.android.apps.docs:style/CakemixTheme.AppCompatActivity.NoActionBar">
+        <item name="*com.google.android.apps.docs:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.docs:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.google.android.apps.docs:colorAccent">@*com.google.android.apps.docs:color/quantum_googred500</item>
+    </style>
+    <style name="DevImpressionsAppTheme" parent="@*com.google.android.apps.docs:style/CakemixTheme.AppCompatActivity.NoActionBar">
+        <item name="*com.google.android.apps.docs:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="*com.google.android.apps.docs:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="*com.google.android.apps.docs:colorAccent">@*com.google.android.apps.docs:color/quantum_googred500</item>
     </style>
 </resources>

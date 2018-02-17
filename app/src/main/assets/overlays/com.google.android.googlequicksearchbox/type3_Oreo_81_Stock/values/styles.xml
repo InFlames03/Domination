@@ -835,11 +835,5 @@
         <item name="android:fontFamily">Roboto</item>
         <item name="android:layout_marginStart">12.0dip</item>
     </style>
-    <style name="Widget.MaterialComponents.BottomNavigationView" parent="@*com.google.android.googlequicksearchbox:style/Widget.Design.BottomNavigationView">
-        <item name="android:background">@*android:color/black</item>
-        <item name="*com.google.android.googlequicksearchbox:itemHorizontalTranslation">false</item>
-        <item name="*com.google.android.googlequicksearchbox:shiftingMode">off</item>
-        <item name="*com.google.android.googlequicksearchbox:itemIconTint">@*com.google.android.googlequicksearchbox:color/mtrl_bottom_nav_item_tint</item>
-        <item name="*com.google.android.googlequicksearchbox:itemTextColor">@*com.google.android.googlequicksearchbox:color/mtrl_bottom_nav_item_tint</item>
-    </style>
+
 </resources>

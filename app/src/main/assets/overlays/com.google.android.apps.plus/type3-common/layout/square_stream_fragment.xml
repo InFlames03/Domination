@@ -16,6 +16,6 @@
             <View android:background="@*com.google.android.apps.plus:drawable/stream_elevation_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" />
         </FrameLayout>
         <include layout="@*com.google.android.apps.plus:layout/new_post_button" />
-        <android.support.design.widget.FloatingActionButton android:id="@*com.google.android.apps.plus:id/plus_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior" app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view" app:layout_anchorGravity="end|center|bottom" app:backgroundTint="@*com.google.android.apps.plus:color/quantum_googgreen500" style="@*com.google.android.apps.plus:style/PlusFab" />
+        <android.support.design.widget.FloatingActionButton android:id="@*com.google.android.apps.plus:id/plus_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior" app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view" app:layout_anchorGravity="end|bottom|center" app:backgroundTint="@*com.google.android.apps.plus:color/quantum_googgreen500" style="@*com.google.android.apps.plus:style/PlusFab" />
     </android.support.design.widget.CoordinatorLayout>
 </android.support.v4.widget.SwipeRefreshLayout>

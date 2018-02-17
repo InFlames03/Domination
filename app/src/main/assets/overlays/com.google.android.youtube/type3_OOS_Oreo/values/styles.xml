@@ -237,17 +237,8 @@
     </style>
     <style name="Base.Widget.AppCompat.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
     <style name="Base.Widget.AppCompat.ListPopupWindow" parent="@*android:style/Widget.Material.ListPopupWindow" />
-    <style name="DrawerListSpinner">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">12.0dip</item>
-        <item name="android:minHeight">48.0dip</item>
-    </style>
-    <style name="DrawerListSpinner.Item" parent="@*com.google.android.youtube:style/DrawerListSpinner">
-        <item name="android:paddingRight">4.0dip</item>
-        <item name="android:textColor">#ffffffff</item>
-    </style>
+
+
 
     <style name="GvrDialogTheme" parent="@*android:style/Theme.Holo.Dialog">
         <item name="android:windowBackground">@*android:color/transparent</item>
@@ -355,64 +346,9 @@
     </style>
 
 
-<!--    <style name="Base.Theme.YouTube.Light" parent="@*com.google.android.youtube:style/Base.Theme.YouTube">
-        <item name="android:windowBackground">@*com.google.android.youtube:color/theme_main_window_background</item>
-        <item name="*com.google.android.youtube:backgroundPrimary">@*com.google.android.youtube:color/yt_background_1_light</item>
-        <item name="*com.google.android.youtube:backgroundPrimaryInverse">@*com.google.android.youtube:color/yt_background_1_dark</item>
-        <item name="*com.google.android.youtube:backgroundSecondary">@*com.google.android.youtube:color/yt_background_2_light</item>
-        <item name="*com.google.android.youtube:backgroundSecondaryInverse">@*com.google.android.youtube:color/yt_background_2_dark</item>
-        <item name="*com.google.android.youtube:backgroundTertiary">@*com.google.android.youtube:color/yt_background_3_light</item>
-        <item name="*com.google.android.youtube:backgroundTertiaryInverse">@*com.google.android.youtube:color/yt_background_3_dark</item>
-        <item name="*com.google.android.youtube:cmtAvatarHeartOverlayDefault">#ffe91e63</item>
-        <item name="*com.google.android.youtube:cmtBgStyleDefault">@*android:color/background_dark</item>
-        <item name="*com.google.android.youtube:cmtBgStyleGrey">@*android:color/background_floating_material_dark</item>
-        <item name="*com.google.android.youtube:cmtCreatorHeartTooltipBg">#cc000000</item>
-        <item name="*com.google.android.youtube:cmtDivider">#00000000</item>
-        <item name="*com.google.android.youtube:cmtHeartPressedFocusedSelected">#ffffffff</item>
-        <item name="*com.google.android.youtube:cmtSponsorBadgeBackground">#ff388e3c</item>
-        <item name="*com.google.android.youtube:cmtSponsorsOnlyBadge">#ff1976d2</item>
-        <item name="*com.google.android.youtube:colorPrimaryAlternate">@*com.google.android.youtube:color/color_brand_primary_alternate</item>
-        <item name="*com.google.android.youtube:listItemChrome">#ff0097a7</item>
-        <item name="*com.google.android.youtube:loadingFrameErrorDrawable">@*com.google.android.youtube:drawable/quantum_ic_error_outline_black_36</item>
-        <item name="*com.google.android.youtube:loadingFrameTextColor">@*android:color/white</item>
-        <item name="*com.google.android.youtube:textAppearanceBody1">@*com.google.android.youtube:style/TextAppearance.YouTube.Body1</item>
-        <item name="*com.google.android.youtube:textAppearanceBody1Inverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Body1</item>
-        <item name="*com.google.android.youtube:textAppearanceBody2">@*com.google.android.youtube:style/TextAppearance.YouTube.Body2</item>
-        <item name="*com.google.android.youtube:textAppearanceBody2Inverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Body2</item>
-        <item name="*com.google.android.youtube:textAppearanceCaption">@*com.google.android.youtube:style/TextAppearance.YouTube.Caption</item>
-        <item name="*com.google.android.youtube:textAppearanceCaptionInverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Caption</item>
-        <item name="*com.google.android.youtube:textAppearanceSubhead">@*com.google.android.youtube:style/TextAppearance.YouTube.Subhead</item>
-        <item name="*com.google.android.youtube:textAppearanceSubheadInverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Subhead</item>
-        <item name="*com.google.android.youtube:textAppearanceTitle">@*com.google.android.youtube:style/TextAppearance.YouTube.Title</item>
-        <item name="*com.google.android.youtube:textAppearanceTitleInverse">@*com.google.android.youtube:style/TextAppearance.YouTube.Title</item>
-        <item name="*com.google.android.youtube:ytBackground1">@*com.google.android.youtube:color/yt_background_1_light</item>
-        <item name="*com.google.android.youtube:ytBackground2">@*com.google.android.youtube:color/yt_background_2_light</item>
-        <item name="*com.google.android.youtube:ytBackground3">@*com.google.android.youtube:color/yt_background_3_light</item>
-        <item name="*com.google.android.youtube:ytBackground4">@*com.google.android.youtube:color/yt_background_4_light</item>
-        <item name="*com.google.android.youtube:ytBadgeBackground1">@*com.google.android.youtube:color/yt_badge_background_light</item>
-        <item name="*com.google.android.youtube:ytBadgeBackground2">@*com.google.android.youtube:color/yt_badge_background_on_red_light</item>
-        <item name="*com.google.android.youtube:ytBadgeText1">@*com.google.android.youtube:color/yt_badge_text_light</item>
-        <item name="*com.google.android.youtube:ytBadgeText2">@*com.google.android.youtube:color/yt_badge_text_on_red_light</item>
-        <item name="*com.google.android.youtube:ytBrandRed">@*com.google.android.youtube:color/yt_brand_red</item>
-        <item name="*com.google.android.youtube:ytIcon1">@*com.google.android.youtube:color/yt_icon_1_light</item>
-        <item name="*com.google.android.youtube:ytIcon2">@*com.google.android.youtube:color/yt_icon_2_light</item>
-        <item name="*com.google.android.youtube:ytMutedBackground1">@*com.google.android.youtube:color/yt_muted_background_1_light</item>
-        <item name="*com.google.android.youtube:ytMutedBackground2">@*com.google.android.youtube:color/yt_muted_background_2_light</item>
-        <item name="*com.google.android.youtube:ytMutedBackground3">@*com.google.android.youtube:color/yt_muted_background_3_light</item>
-        <item name="*com.google.android.youtube:ytStaticBlue">@*com.google.android.youtube:color/yt_material_blue_500</item>
-        <item name="*com.google.android.youtube:ytStaticDarkBackground1">@*com.google.android.youtube:color/yt_background_3_dark</item>
-        <item name="*com.google.android.youtube:ytStaticGreen">@*com.google.android.youtube:color/yt_material_green_500</item>
-        <item name="*com.google.android.youtube:ytStaticGrey">@*com.google.android.youtube:color/yt_static_grey</item>
-        <item name="*com.google.android.youtube:ytStaticWhite">@*com.google.android.youtube:color/yt_static_white</item>
-        <item name="*com.google.android.youtube:ytStaticYellow">@*com.google.android.youtube:color/yt_material_yellow_700</item>
-        <item name="*com.google.android.youtube:ytText1">@*com.google.android.youtube:color/yt_text_1_light</item>
-        <item name="*com.google.android.youtube:ytText2">@*com.google.android.youtube:color/yt_text_2_light</item>
-        <item name="*com.google.android.youtube:ytText3">@*com.google.android.youtube:color/yt_text_3_light</item>
-        <item name="*com.google.android.youtube:colorPrimary">@*com.google.android.youtube:color/theme_main_color_primary</item>
-        <item name="*com.google.android.youtube:colorPrimaryDark">@*com.google.android.youtube:color/theme_main_color_primary_dark</item>
-        <item name="*com.google.android.youtube:colorAccent">@*com.google.android.youtube:color/theme_main_color_accent</item>
-        <item name="*com.google.android.youtube:colorControlHighlight">@*android:color/ripple_material_dark</item>
-    </style>-->
 
+    <style name="youtube_wallet_custom_theme">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+    </style>
 
 </resources>

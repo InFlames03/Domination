@@ -1217,4 +1217,25 @@
     <color name="weather_google_yellow">#fffbc02d</color>
     <color name="weather_search_plate_hint_text_color">#ffbbbbbb</color>
     <color name="weather_search_plate_text_color">#ffffffff</color>
+
+
+    <color name="chatui_bubble_pending_text_light">#ffdddddd</color>
+    <color name="chatui_bubble_text_v3">#ffdddddd</color>
+    <color name="chatui_scrim_background_opaque">@*android:color/background_dark</color>
+    <color name="chatui_scrim_background_translucent">#00000000</color>
+    <color name="chatui_status_bar_opaque">@*android:color/primary_dark_material_dark</color>
+    <color name="chatui_status_bar_opaque_v2">@*android:color/primary_dark_material_dark</color>
+    <color name="chatui_status_bar_translucent">@*android:color/transparent</color>
+    <color name="custom_tabs_toolbar_button_color">#ffe91e63</color>
+    <color name="explore_bottombar_eames_background">@*android:color/primary_material_dark</color>
+    <color name="explore_bottombar_eames_title_color">#ffffffff</color>
+    <color name="explore_bottombar_eames_with_image_title_color">#ffffffff</color>
+    <color name="settings_option">#ffdddddd</color>
+    <color name="settings_title">#ffffffff</color>
+    <color name="suggestion_item_background">@*android:color/background_dark</color>
+    <color name="suggestion_item_stroke">#ffffffff</color>
+    <color name="suggestion_item_stroke_disabled">#ffdddddd</color>
+    <color name="suggestion_item_stroke_selected">#ff1976d2</color>
+    <color name="suggestion_text_disabled">#ffaaaaaa</color>
+    <color name="suggestion_text_enabled">#ffffffff</color>
 </resources>

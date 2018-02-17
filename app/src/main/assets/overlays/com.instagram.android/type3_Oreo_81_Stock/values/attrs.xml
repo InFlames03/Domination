@@ -279,6 +279,9 @@
     <attr name="disabled_alpha" format="integer" min="0" max="255" />
     <attr name="dismissableText" format="string" />
     <attr name="dividerColor" format="color" />
+    <attr name="doubleAvatarGradientRingSidePadding" format="dimension" />
+    <attr name="doubleAvatarGradientRingSize" format="dimension" />
+    <attr name="doubleAvatarSize" format="dimension" />
     <attr name="double_layered" format="boolean" />
     <attr name="drawable" format="reference" />
     <attr name="drawingview_stroke_color" format="color" />
@@ -288,8 +291,9 @@
     <attr name="edgeRadius" format="dimension" />
     <attr name="ellipsisText" format="string" />
     <attr name="enableBorder" format="boolean" />
+    <attr name="enableClearButton" format="boolean" />
     <attr name="enablePinchZoom" format="boolean" />
-    <attr name="enablePinchZoomDeprecated" format="boolean" />
+    <attr name="enablePinchZoomDeprecatedIG" format="boolean" />
     <attr name="enableQuickBackWhenEmpty" format="boolean" />
     <attr name="enabledIconColor" format="color" />
     <attr name="enabledTextColor" format="color" />
@@ -391,7 +395,7 @@
         <enum name="back" value="0" />
         <enum name="front" value="1" />
     </attr>
-    <attr name="initialCameraFacingDeprecated">
+    <attr name="initialCameraFacingDeprecatedIG">
         <enum name="back" value="0" />
         <enum name="front" value="1" />
     </attr>
@@ -435,7 +439,7 @@
     <attr name="loadingSubtitle" format="reference|string" />
     <attr name="loadingTitle" format="reference|string" />
     <attr name="lockMediaOrientation" format="boolean" />
-    <attr name="lockMediaOrientationDeprecated" format="boolean" />
+    <attr name="lockMediaOrientationDeprecatedIG" format="boolean" />
     <attr name="loopCount" format="integer" />
     <attr name="maxDurationMS" format="integer" />
     <attr name="maxHeight" format="dimension" />
@@ -445,6 +449,7 @@
     <attr name="mediaPickerBackground" format="color" />
     <attr name="mediaPickerItemStyle" format="reference" />
     <attr name="mediaPickerSpacing" format="dimension" />
+    <attr name="mediaPlaceholderColor" format="color" />
     <attr name="mediaTabBackground" format="color" />
     <attr name="mediaTabStyle" format="reference" />
     <attr name="mediaTabTextColor" format="color" />
@@ -492,7 +497,7 @@
         <enum name="low" value="2" />
         <enum name="medium" value="1" />
     </attr>
-    <attr name="photoCaptureQualityDeprecated">
+    <attr name="photoCaptureQualityDeprecatedIG">
         <enum name="deactivated" value="3" />
         <enum name="high" value="0" />
         <enum name="low" value="2" />
@@ -568,6 +573,13 @@
         <enum name="text" value="0" />
     </attr>
     <attr name="reverseLayout" format="boolean" />
+    <attr name="roundedCorners">
+        <flag name="all" value="0x0000000f" />
+        <flag name="bottomLeft" value="0x00000008" />
+        <flag name="bottomRight" value="0x00000004" />
+        <flag name="topLeft" value="0x00000001" />
+        <flag name="topRight" value="0x00000002" />
+    </attr>
     <attr name="rowAvatarWidth" format="dimension" />
     <attr name="rowBadge" format="reference" />
     <attr name="rowDetailBoldText" format="reference" />
@@ -643,6 +655,8 @@
     <attr name="showMissingBackAvatar" format="reference|boolean" />
     <attr name="showSecondaryButton" format="boolean" />
     <attr name="showStroke" format="boolean" />
+    <attr name="singleAvatarGradientRingSize" format="dimension" />
+    <attr name="singleAvatarSize" format="dimension" />
     <attr name="singleChoiceItemLayout" format="reference" />
     <attr name="singleTapGesture">
         <flag name="disabled" value="0x00000000" />
@@ -738,7 +752,7 @@
         <enum name="low" value="2" />
         <enum name="medium" value="1" />
     </attr>
-    <attr name="videoCaptureQualityDeprecated">
+    <attr name="videoCaptureQualityDeprecatedIG">
         <enum name="deactivated" value="3" />
         <enum name="high" value="0" />
         <enum name="low" value="2" />

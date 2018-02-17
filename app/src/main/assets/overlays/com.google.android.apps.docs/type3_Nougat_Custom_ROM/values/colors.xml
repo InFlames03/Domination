@@ -407,4 +407,7 @@
     <color name="m_actionbar_icon_slides">#ffffffff</color>
     <color name="m_actionbar_text_slides">#ffdddddd</color>
     <color name="preference_fallback_accent_color">@*android:color/accent_material_dark</color>
+
+
+    <color name="thumbnail_gutter_color">@*android:color/button_material_dark</color>
 </resources>

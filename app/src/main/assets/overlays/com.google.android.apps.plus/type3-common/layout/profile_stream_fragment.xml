@@ -14,6 +14,6 @@
             <include layout="@*com.google.android.apps.plus:layout/stream_fragment_no_swipe_for_refresh" />
             <View android:background="@*com.google.android.apps.plus:drawable/stream_elevation_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" />
         </FrameLayout>
-        <android.support.design.widget.FloatingActionButton android:id="@*com.google.android.apps.plus:id/plus_fab" android:backgroundTint="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior" app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view" app:layout_anchorGravity="end|center|bottom" style="@*com.google.android.apps.plus:style/PlusFabRed" />
+        <android.support.design.widget.FloatingActionButton android:id="@*com.google.android.apps.plus:id/plus_fab" android:backgroundTint="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_behavior="com.google.android.apps.plus.navigation.tiktok.bottombar.FabBehavior" app:layout_anchor="@*com.google.android.apps.plus:id/scroll_view" app:layout_anchorGravity="end|bottom|center" style="@*com.google.android.apps.plus:style/PlusFabRed" />
     </android.support.design.widget.CoordinatorLayout>
 </android.support.v4.widget.SwipeRefreshLayout>
