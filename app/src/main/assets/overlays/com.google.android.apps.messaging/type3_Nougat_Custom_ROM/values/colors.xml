@@ -367,11 +367,27 @@
 
 
     <color name="c2o_grid_top_border">#ff009688</color>
-    <color name="c2o_send_button_disabled_color">#cc101010</color>
+    <color name="c2o_send_button_disabled_color">#ffaaaaaa</color>
     <color name="c2o_send_hint_color">#ffbbbbbb</color>
     <color name="mtrl_chip_ripple_color">#ffffffff</color>
     <color name="mtrl_chip_text_color">#ffdddddd</color>
     <color name="search_highlight_background">#ff555555</color>
     <color name="search_highlight_text">#ffffffff</color>
     <color name="vcard_outgoing_details_text_color">#ffdddddd</color>
+
+
+    <color name="conversation_list_fast_track_popup_body_text_color">#ffdddddd</color>
+    <color name="conversation_list_fast_track_popup_title_text_color">#ffffffff</color>
+    <color name="conversation_start_unverified_color">#ffdddddd</color>
+    <color name="conversation_start_verified_color">#ff1976d2</color>
+    <color name="mtrl_bottomappbar_default_tint">#f5000000</color>
+    <color name="qr_paired_desktop_icon_tint">#ffdddddd</color>
+    <color name="qr_welcome_button_color">#ff1976d2</color>
+    <color name="rbm_payments_checkout_text_color">#ffffffff</color>
+    <color name="rbm_payments_horizontal_divider_color">#00000000</color>
+    <color name="rbm_payments_primary_line_item_text_color">#ffffffff</color>
+    <color name="rbm_payments_secondary_line_item_text_color">#ffdddddd</color>
+    <color name="rbm_payments_total_line_item_text_color">#ffffffff</color>
+    <color name="message_indicator_color">#ffffffff</color>
+    <color name="message_metadata_color">#ffdddddd</color>
 </resources>

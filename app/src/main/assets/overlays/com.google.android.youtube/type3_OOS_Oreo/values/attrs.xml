@@ -4,7 +4,6 @@
     <attr name="adBackground2" format="reference|color" />
     <attr name="adBlue" format="reference|color" />
     <attr name="adMutedBackground" format="reference|color" />
-    <attr name="adOverlayBackground" format="reference|color" />
     <attr name="adSeparator1" format="reference|color" />
     <attr name="adSeparator2" format="reference|color" />
     <attr name="adText1" format="reference|color" />
@@ -33,11 +32,29 @@
     <attr name="cmtSponsorBadgeBackground" format="reference|color" />
     <attr name="cmtSponsorsOnlyBadge" format="reference|color" />
     <attr name="colorControlSelected" format="color" />
-    <attr name="colorPalettePrimary" format="reference" />
-    <attr name="colorPaletteSecondary" format="reference" />
+    <attr name="colorPrimary100" format="color" />
+    <attr name="colorPrimary200" format="color" />
+    <attr name="colorPrimary300" format="color" />
+    <attr name="colorPrimary400" format="color" />
+    <attr name="colorPrimary50" format="color" />
+    <attr name="colorPrimary500" format="color" />
+    <attr name="colorPrimary600" format="color" />
+    <attr name="colorPrimary700" format="color" />
+    <attr name="colorPrimary800" format="color" />
+    <attr name="colorPrimary900" format="color" />
     <attr name="colorPrimaryAlternate" format="reference" />
     <attr name="colorPrimaryLight" format="color" />
     <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondary100" format="color" />
+    <attr name="colorSecondary200" format="color" />
+    <attr name="colorSecondary300" format="color" />
+    <attr name="colorSecondary400" format="color" />
+    <attr name="colorSecondary50" format="color" />
+    <attr name="colorSecondary500" format="color" />
+    <attr name="colorSecondary600" format="color" />
+    <attr name="colorSecondary700" format="color" />
+    <attr name="colorSecondary800" format="color" />
+    <attr name="colorSecondary900" format="color" />
     <attr name="colorSecondaryDark" format="color" />
     <attr name="colorSecondaryLight" format="color" />
     <attr name="constraintSet" format="reference" />
@@ -180,7 +197,6 @@
         <enum name="zoom" value="4" />
     </attr>
     <attr name="rewind_increment" format="integer" />
-    <attr name="rippleColor" format="color" />
     <attr name="scrimBackground" format="reference|color" />
     <attr name="showMotionSpec" format="reference" />
     <attr name="show_shuffle_button" format="boolean" />
@@ -190,6 +206,7 @@
         <enum name="surface_view" value="1" />
         <enum name="texture_view" value="2" />
     </attr>
+    <attr name="tabStyle" format="reference" />
     <attr name="textAppearanceBody1" format="reference" />
     <attr name="textAppearanceBody1Inverse" format="reference" />
     <attr name="textAppearanceBody2" format="reference" />
@@ -953,6 +970,12 @@
     <attr name="latLngBoundsSouthWestLongitude" format="float" />
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
+    <attr name="iconPadding" format="dimension" />
+    <attr name="iconTint" format="color" />
+    <attr name="additionalPaddingLeftForIcon" format="dimension" />
+    <attr name="additionalPaddingRightForIcon" format="dimension" />
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="rippleColor" format="color" />
     <attr name="externalRouteEnabledDrawable" format="reference" />
     <attr name="mediaRouteButtonTint" format="color" />
     <attr name="alphabeticModifiers">
@@ -983,7 +1006,6 @@
     <attr name="actionProviderClass" format="string" />
     <attr name="contentDescription" format="string" />
     <attr name="tooltipText" format="string" />
-    <attr name="iconTint" format="color" />
     <attr name="iconTintMode">
         <enum name="add" value="16" />
         <enum name="multiply" value="14" />

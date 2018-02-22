@@ -157,4 +157,8 @@
 
 
     <color name="text_view_link_color">#ff1976d2</color>
+
+
+    <color name="gallery_item_selection_circle_selected_color">#ff1976d2</color>
+    <color name="multi_select_blue">#ff1976d2</color>
 </resources>

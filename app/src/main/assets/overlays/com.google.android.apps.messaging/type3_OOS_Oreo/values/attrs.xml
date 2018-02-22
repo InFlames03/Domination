@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="apnPreferenceStyle" format="reference" />
+    <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="height" format="dimension" />
     <attr name="isLightTheme" format="boolean" />
@@ -52,6 +53,7 @@
     <attr name="singleChoiceItemLayout" format="reference" />
     <attr name="listItemLayout" format="reference" />
     <attr name="showTitle" format="boolean" />
+    <attr name="buttonIconDimen" format="dimension" />
     <attr name="expanded" format="boolean" />
     <attr name="state_collapsed" format="boolean" />
     <attr name="state_collapsible" format="boolean" />
@@ -212,21 +214,28 @@
     <attr name="tooltipFrameBackground" format="reference" />
     <attr name="tooltipForegroundColor" format="reference|color" />
     <attr name="colorError" format="reference|color" />
+    <attr name="viewInflaterClass" format="string" />
     <attr name="fadeIn" format="boolean" />
     <attr name="placeholderDrawable" format="reference" />
-    <attr name="cornerRadius" format="reference|dimension" />
-    <attr name="adjustAspectRatio" format="boolean" />
     <attr name="reveal" format="boolean" />
     <attr name="selectedBorderWidth" format="reference|dimension" />
-    <attr name="selectedTintColor" format="reference|color" />
-    <attr name="backgroundColor" format="reference|color" />
     <attr name="layoutMode" format="integer">
         <enum name="normal" value="0" />
         <enum name="compact" value="1" />
         <enum name="subcompact" value="2" />
     </attr>
+    <attr name="fabCradleDiameter" format="dimension" />
+    <attr name="fabCradleRoundedCornerRadius" format="dimension" />
+    <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="labelVisibilityMode">
+        <enum name="labeled" value="1" />
+        <enum name="legacy" value="-1" />
+        <enum name="selected" value="0" />
+        <enum name="unlabeled" value="2" />
+    </attr>
+    <attr name="itemHorizontalTranslation" format="boolean" />
     <attr name="shiftingMode">
-        <enum name="auto" value="2" />
+        <enum name="auto" value="-1" />
         <enum name="off" value="0" />
         <enum name="on" value="1" />
     </attr>
@@ -235,6 +244,7 @@
     </attr>
     <attr name="behavior_hideable" format="boolean" />
     <attr name="behavior_skipCollapsed" format="boolean" />
+    <attr name="behavior_fitToContents" format="boolean" />
     <attr name="allowStacking" format="boolean" />
     <attr name="textSizeMaxDp" format="dimension" />
     <attr name="cardBackgroundColor" format="color" />
@@ -254,11 +264,14 @@
     <attr name="chipStrokeColor" format="color" />
     <attr name="chipStrokeWidth" format="dimension" />
     <attr name="chipText" format="string" />
+    <attr name="chipIconEnabled" format="boolean" />
     <attr name="chipIcon" format="reference" />
     <attr name="chipIconSize" format="dimension" />
+    <attr name="closeIconEnabled" format="boolean" />
     <attr name="closeIcon" format="reference" />
     <attr name="closeIconTint" format="color" />
     <attr name="closeIconSize" format="dimension" />
+    <attr name="checkedIconEnabled" format="boolean" />
     <attr name="checkedIcon" format="reference" />
     <attr name="chipStartPadding" format="dimension" />
     <attr name="iconStartPadding" format="dimension" />
@@ -268,6 +281,12 @@
     <attr name="closeIconStartPadding" format="dimension" />
     <attr name="closeIconEndPadding" format="dimension" />
     <attr name="chipEndPadding" format="dimension" />
+    <attr name="chipSpacing" format="dimension" />
+    <attr name="chipSpacingHorizontal" format="dimension" />
+    <attr name="chipSpacingVertical" format="dimension" />
+    <attr name="singleLine" format="boolean" />
+    <attr name="singleSelection" format="boolean" />
+    <attr name="checkedChip" format="reference" />
     <attr name="expandedTitleMargin" format="dimension" />
     <attr name="expandedTitleMarginStart" format="dimension" />
     <attr name="expandedTitleMarginTop" format="dimension" />
@@ -381,6 +400,14 @@
     <attr name="semanticallySearchable" format="boolean" />
     <attr name="documentMaxAgeSecs" format="integer" />
     <attr name="perAccountTemplate" format="boolean" />
+    <attr name="windowTransitionStyle">
+        <enum name="none" value="2" />
+        <enum name="slide" value="1" />
+    </attr>
+    <attr name="toolbarTextColorStyle">
+        <enum name="dark" value="2" />
+        <enum name="light" value="1" />
+    </attr>
     <attr name="color" format="color" />
     <attr name="spinBars" format="boolean" />
     <attr name="drawableSize" format="dimension" />
@@ -392,12 +419,12 @@
     <attr name="paramName" format="string" />
     <attr name="paramValue" format="string" />
     <attr name="rippleColor" format="color" />
-    <attr name="rippleAlpha" format="color" />
     <attr name="fabSize">
         <enum name="normal" value="0" />
         <enum name="auto" value="-1" />
         <enum name="mini" value="1" />
     </attr>
+    <attr name="fabCustomSize" format="dimension" />
     <attr name="hoveredFocusedTranslationZ" format="dimension" />
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="borderWidth" format="dimension" />
@@ -491,6 +518,7 @@
     <attr name="toAddressesSection" format="string" />
     <attr name="imageCornerRadius" format="reference|dimension" />
     <attr name="imageAllowCrop" format="boolean" />
+    <attr name="removeStickerCropping" format="boolean" />
     <attr name="measureWithLargestChild" format="boolean" />
     <attr name="showDividers">
         <flag name="none" value="0x00000000" />
@@ -545,9 +573,12 @@
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
     <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialSwitchStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference" />
+    <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
+    <attr name="bottomAppBarStyle" format="reference" />
     <attr name="alphabeticModifiers">
         <flag name="ALT" value="0x00000002" />
         <flag name="CTRL" value="0x00001000" />
@@ -623,6 +654,10 @@
     <attr name="fastScrollVerticalTrackDrawable" format="reference" />
     <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
     <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="cornerRadius" format="reference|dimension" />
+    <attr name="adjustAspectRatio" format="boolean" />
+    <attr name="selectedTintColor" format="reference|color" />
+    <attr name="backgroundColor" format="reference|color" />
     <attr name="insetForeground" format="reference|color" />
     <attr name="behavior_overlapTop" format="dimension" />
     <attr name="layout" format="reference" />
@@ -702,6 +737,13 @@
     <attr name="tabIndicatorHeight" format="dimension" />
     <attr name="tabContentStart" format="dimension" />
     <attr name="tabBackground" format="reference" />
+    <attr name="tabIndicator" format="reference" />
+    <attr name="tabIndicatorGravity">
+        <enum name="bottom" value="0" />
+        <enum name="center" value="1" />
+        <enum name="top" value="2" />
+        <enum name="stretch" value="3" />
+    </attr>
     <attr name="tabMode">
         <enum name="fixed" value="1" />
         <enum name="scrollable" value="0" />
@@ -710,6 +752,7 @@
         <enum name="center" value="1" />
         <enum name="fill" value="0" />
     </attr>
+    <attr name="tabInlineLabel" format="boolean" />
     <attr name="tabMinWidth" format="dimension" />
     <attr name="tabMaxWidth" format="dimension" />
     <attr name="tabTextAppearance" format="reference" />
@@ -720,6 +763,16 @@
     <attr name="tabPaddingEnd" format="dimension" />
     <attr name="tabPaddingBottom" format="dimension" />
     <attr name="tabPadding" format="dimension" />
+    <attr name="tabIconTint" format="color" />
+    <attr name="tabIconTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="tabRippleColor" format="color" />
     <attr name="hintEnabled" format="boolean" />
     <attr name="hintAnimationEnabled" format="boolean" />
     <attr name="hintTextAppearance" format="reference" />
@@ -760,7 +813,7 @@
     <attr name="boxExpandedPaddingBottom" format="dimension" />
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />
-    <attr name="boxStrokeWidth" format="color" />
+    <attr name="boxStrokeWidth" format="dimension" />
     <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />
@@ -802,5 +855,61 @@
         <enum name="src_atop" value="9" />
         <enum name="src_in" value="5" />
         <enum name="src_over" value="3" />
+    </attr>
+    <attr name="appTheme">
+        <enum name="holo_dark" value="0" />
+        <enum name="holo_light" value="1" />
+    </attr>
+    <attr name="environment">
+        <enum name="production" value="1" />
+        <enum name="sandbox" value="0" />
+        <enum name="strict_sandbox" value="2" />
+        <enum name="test" value="3" />
+    </attr>
+    <attr name="fragmentStyle" format="reference" />
+    <attr name="fragmentMode">
+        <enum name="buyButton" value="1" />
+        <enum name="selectionDetails" value="2" />
+    </attr>
+    <attr name="buyButtonHeight" format="dimension">
+        <enum name="wrap_content" value="-2" />
+        <enum name="match_parent" value="-1" />
+    </attr>
+    <attr name="buyButtonWidth" format="dimension">
+        <enum name="wrap_content" value="-2" />
+        <enum name="match_parent" value="-1" />
+    </attr>
+    <attr name="buyButtonText">
+        <enum name="book_now" value="3" />
+        <enum name="buy_now" value="2" />
+        <enum name="buy_with" value="5" />
+        <enum name="buy_with_google" value="1" />
+        <enum name="donate_with" value="7" />
+        <enum name="donate_with_google" value="4" />
+        <enum name="logo_only" value="6" />
+    </attr>
+    <attr name="buyButtonAppearance">
+        <enum name="android_pay_dark" value="4" />
+        <enum name="android_pay_light" value="5" />
+        <enum name="android_pay_light_with_border" value="6" />
+        <enum name="classic" value="1" />
+        <enum name="google_wallet_classic" value="1" />
+        <enum name="google_wallet_grayscale" value="2" />
+        <enum name="google_wallet_monochrome" value="3" />
+        <enum name="grayscale" value="2" />
+        <enum name="monochrome" value="3" />
+    </attr>
+    <attr name="maskedWalletDetailsTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsHeaderTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsBackground" format="reference|color" />
+    <attr name="maskedWalletDetailsButtonTextAppearance" format="reference" />
+    <attr name="maskedWalletDetailsButtonBackground" format="reference|color" />
+    <attr name="maskedWalletDetailsLogoTextColor" format="color" />
+    <attr name="maskedWalletDetailsLogoImageType">
+        <enum name="classic" value="1" />
+        <enum name="google_wallet_classic" value="1" />
+        <enum name="google_wallet_monochrome" value="2" />
+        <enum name="monochrome" value="2" />
+        <enum name="android_pay" value="3" />
     </attr>
 </resources>

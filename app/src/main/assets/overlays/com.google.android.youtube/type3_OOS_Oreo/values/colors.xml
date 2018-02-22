@@ -755,8 +755,8 @@
     <color name="live_chat_header_dropdown_subtitle_color">#ffdddddd</color>
     <color name="navigationbar_background_dark">@*android:color/black</color>
     <color name="navigationbar_background_light">@android:color/black</color>
-    <color name="navigationbar_divider_dark">@*android:color/transparent</color>
-    <color name="navigationbar_divider_light">@*android:color/transparent</color>
+    <color name="navigationbar_divider_dark">@*android:color/black</color>
+    <color name="navigationbar_divider_light">@*android:color/black</color>
     <color name="player_loading_view_color">#fffbc02d</color>
     <color name="red_carpet_action_bar_with_transparency_color">#41111111</color>
     <color name="red_carpet_badge_parallelogram_text_color">#ffffffff</color>
@@ -867,4 +867,11 @@
 
 
     <color name="edit_red">#ffd32f2f</color>
+
+
+    <color name="chat_message_bubble_background_link">#ff1976d2</color>
+    <color name="chat_reply_box_hint_text">#ffaaaaaa</color>
+    <color name="chat_reply_box_shadow">#ff000000</color>
+    <color name="reel_camera_gallery_button_waiting_black">@*android:color/button_material_dark</color>
+    <color name="slim_status_bar_shimmer_background_color">@*android:color/primary_dark_material_dark</color>
 </resources>
